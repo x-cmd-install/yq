@@ -7,13 +7,13 @@ about:
   head: 8b5af06
   archived: false
   latestVersion: v4.53.6
-  collectedAt: 2026-09-04T19:19:25Z
+  collectedAt: 2026-09-04T21:13:46Z
 timeline:
   created: 2015-09-26
   lastCommit: 2026-08-25
   lastRelease: 2026-08-20
 popularity:
-  star: 15920
+  star: 15921
   watcher: 66
   fork: 832
   release: 169
@@ -83,6 +83,79 @@ total:
   openIssue: 248
   commit: 2308
 ---
+path: /home/runner/.x-repo/github.com/mikefarah/yq
+collectedAt: 2026-09-04T21:13:48Z
+loc:
+  Go:
+    code: 38289
+    comments: 1321
+    blanks: 4643
+    files: 268
+  Sh:
+    code: 2813
+    comments: 300
+    blanks: 698
+    files: 40
+  Yaml:
+    code: 169
+    comments: 11
+    blanks: 9
+    files: 30
+  Makefile:
+    code: 90
+    comments: 9
+    blanks: 25
+    files: 1
+  Toml:
+    code: 33
+    comments: 1
+    blanks: 12
+    files: 2
+  Hcl:
+    code: 25
+    comments: 10
+    blanks: 8
+    files: 3
+  Dockerfile:
+    code: 19
+    comments: 5
+    blanks: 13
+    files: 2
+  Ini:
+    code: 15
+    comments: 2
+    blanks: 5
+    files: 2
+  Xml:
+    code: 10
+    comments: 3
+    blanks: 0
+    files: 3
+  Lua:
+    code: 9
+    comments: 0
+    blanks: 0
+    files: 1
+  Json:
+    code: 1
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 8260
+    blanks: 1896
+    files: 158
+  Text:
+    code: 0
+    comments: 574
+    blanks: 132
+    files: 3
+total:
+  code: 46164
+  comments: 10626
+  blanks: 7487
+  files: 514
 ---
 date: "2026-09-01T07:43:41Z"
 repo:
