@@ -2,7 +2,7 @@ name: card
 
 on:
   schedule:
-    - cron: "32 0 * * *"
+    - cron: "MIN 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -14,12 +14,11 @@ concurrency:
 
 jobs:
   collect:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     steps:
       - uses: actions/checkout@v5
 
-      - name: Collect card
+      - name: Collect card + loc + scorecard
         uses: x-cmd-install/x-cmd-install-action@main
         with:
           owner-repo: mikefarah/yq
-          stages: 'card'
