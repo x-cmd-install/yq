@@ -2,8 +2,8 @@ name: card
 
 on:
   schedule:
-    - cron: "MIN 0 * * *"
-  workflow_dispatch:
+    - cron: " 0 * * *"
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -20,5 +20,3 @@ jobs:
 
       - name: Collect card + loc + scorecard
         uses: x-cmd-install/x-cmd-install-action@main
-        with:
-          owner-repo: mikefarah/yq
