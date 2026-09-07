@@ -5,13 +5,13 @@ about:
   head: 8b5af06
   archived: false
   latestVersion: "v4.53.6"
-  collectedAt: 2026-09-07T05:27:39Z
+  collectedAt: 2026-09-07T19:17:01Z
 timeline:
   created: 2015-09-26
   lastCommit: 2026-08-25
   lastRelease: 2026-08-20
 popularity:
-  star: 15928
+  star: 15932
   watcher: 67
   fork: 833
   release: 169
@@ -82,7 +82,7 @@ total:
   commit: 2308
 ---
 path: /home/runner/.x-repo/github.com/mikefarah/yq
-collectedAt: 2026-09-07T05:27:40Z
+collectedAt: 2026-09-07T19:17:03Z
 loc:
   Go:
     code: 38289
@@ -286,7 +286,7 @@ checks:
       - 'Info: found contributions from: Perl, Perl-Toolchain-Gang, ProntoPro, SUSE, agavee, associazionedrupalitalia, caddyserver, cisco systems, cloudfoundry-incubator, cncf-maintainers, contact harald, drupaldevdays, forge, lima-vm, pep, perl-libwin32, rancher, rancher labs @ suse, rancher-sandbox, sysdiglabs @draios, three''s'
 ---
 eget:
-  collectedAt: 2026-09-07T05:27:41+00:00
+  collectedAt: 2026-09-07T19:17:04+00:00
   platform:
     darwin/arm64:
       name:  yq_darwin_arm64.tar.gz
