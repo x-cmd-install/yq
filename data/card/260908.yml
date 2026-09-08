@@ -5,7 +5,7 @@ about:
   head: 8b5af06
   archived: false
   latestVersion: "v4.53.6"
-  collectedAt: 2026-09-08T02:40:17Z
+  collectedAt: 2026-09-08T05:25:27Z
 timeline:
   created: 2015-09-26
   lastCommit: 2026-08-25
@@ -82,7 +82,7 @@ total:
   commit: 2308
 ---
 path: /home/runner/.x-repo/github.com/mikefarah/yq
-collectedAt: 2026-09-08T02:40:19Z
+collectedAt: 2026-09-08T05:25:31Z
 loc:
   Go:
     code: 38289
