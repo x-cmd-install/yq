@@ -7,7 +7,7 @@ about:
   latestVersion: "v4.53.6"
   latestRelease: "v4.53.6"
   latestPrerelease: "v4.40.1"
-  collectedAt: 2026-09-11T05:32:54Z
+  collectedAt: 2026-09-11T18:18:54Z
 timeline:
   created: 2015-09-26
   lastCommit: 2026-08-25
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 2026-08-20
   lastPrerelease: 2023-11-07
 popularity:
-  star: 15947
+  star: 15949
   watcher: 68
-  fork: 832
+  fork: 833
   release: 169
   contributor: 155
   pullRequest: 734
-  issue: 1615
+  issue: 1616
 language:
   Go: 1203557
   Shell: 116283
@@ -35,7 +35,7 @@ recent:
     mergedPR: 5
     openPR: 24
     closedIssue: 3
-    openIssue: 8
+    openIssue: 9
     commit: 18
   last60d:
     since: 2026-07-13
@@ -43,7 +43,7 @@ recent:
     mergedPR: 14
     openPR: 30
     closedIssue: 8
-    openIssue: 12
+    openIssue: 13
     commit: 39
   last90d:
     since: 2026-06-13
@@ -51,7 +51,7 @@ recent:
     mergedPR: 35
     openPR: 38
     closedIssue: 9
-    openIssue: 14
+    openIssue: 15
     commit: 52
   last180d:
     since: 2026-03-15
@@ -59,7 +59,7 @@ recent:
     mergedPR: 96
     openPR: 47
     closedIssue: 28
-    openIssue: 23
+    openIssue: 24
     commit: 146
   last360d:
     since: 2025-09-16
@@ -67,7 +67,7 @@ recent:
     mergedPR: 152
     openPR: 51
     closedIssue: 64
-    openIssue: 54
+    openIssue: 55
     commit: 296
   last720d:
     since: 2024-09-21
@@ -75,18 +75,18 @@ recent:
     mergedPR: 221
     openPR: 52
     closedIssue: 143
-    openIssue: 115
+    openIssue: 116
     commit: 496
 total:
   release: 169
   mergedPR: 532
   openPR: 52
   closedIssue: 1367
-  openIssue: 248
+  openIssue: 249
   commit: 2308
 ---
 path: /home/runner/.x-repo/github.com/mikefarah/yq
-collectedAt: 2026-09-11T05:32:57Z
+collectedAt: 2026-09-11T18:18:55Z
 loc:
   Go:
     code: 38289
