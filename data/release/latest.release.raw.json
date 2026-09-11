@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 110676,
       "digest": "sha256:2c24718beb7759c4793782e9ca06d406088b6ba1c372853bebc9faed7c02af87",
-      "download_count": 101171,
+      "download_count": 101202,
       "created_at": "2026-08-20T09:21:03Z",
       "updated_at": "2026-08-20T09:21:03Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.53.6/checksums"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 13430242,
       "digest": "sha256:cceb0b8d71ea5294334121f8429f33f92b920e7217d904a2f9f35443968ac424",
-      "download_count": 26716,
+      "download_count": 26743,
       "created_at": "2026-08-20T09:21:03Z",
       "updated_at": "2026-08-20T09:21:05Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.53.6/yq_darwin_arm64"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 13885600,
       "digest": "sha256:b4506e9a1b870028c678cfb8365b87ba3381eab87c76b68f52f65264b08ef84f",
-      "download_count": 6185,
+      "download_count": 6188,
       "created_at": "2026-08-20T09:21:03Z",
       "updated_at": "2026-08-20T09:21:05Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.53.6/yq_linux_386"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 14180512,
       "digest": "sha256:c5f056448f973ae7d39b5401949648a78f2dc1947d6a8eb65be60d5c504b9385",
-      "download_count": 1378596,
+      "download_count": 1379014,
       "created_at": "2026-08-20T09:21:03Z",
       "updated_at": "2026-08-20T09:21:05Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.53.6/yq_linux_amd64"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 5729058,
       "digest": "sha256:38b907b21b1b04327fb9481c595331d925a67c6ee1aabd0ef419d0b7d12dfb3d",
-      "download_count": 57968,
+      "download_count": 57988,
       "created_at": "2026-08-20T09:21:03Z",
       "updated_at": "2026-08-20T09:21:04Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.53.6/yq_linux_amd64.tar.gz"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 13172896,
       "digest": "sha256:88a1016bc1d657375a35864e4f44b6f333df8ff97b559f51bba0adcb2169df09",
-      "download_count": 169148,
+      "download_count": 169233,
       "created_at": "2026-08-20T09:21:03Z",
       "updated_at": "2026-08-20T09:21:05Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.53.6/yq_linux_arm64"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 5146582,
       "digest": "sha256:d5e7531273d45c5d4b7abb4a1597c47a0fecb5d6b081dfa755064b38ffcc34f4",
-      "download_count": 6629,
+      "download_count": 6635,
       "created_at": "2026-08-20T09:21:03Z",
       "updated_at": "2026-08-20T09:21:04Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.53.6/yq_linux_arm64.tar.gz"
@@ -2047,7 +2047,7 @@
       "state": "uploaded",
       "size": 14629888,
       "digest": "sha256:ece3dd8bb50d39f93610506273ea262feb91e5c486bbddbb10abf91b2a6c0f14",
-      "download_count": 47202,
+      "download_count": 47213,
       "created_at": "2026-08-20T09:21:02Z",
       "updated_at": "2026-08-20T09:21:05Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.53.6/yq_windows_amd64.exe"
