@@ -14,11 +14,11 @@ x install yq
 
 ## Code insight
 
-Total: **41,473** lines of code across **341** files in the top 5 languages.
+Total: **41,959** lines of code across **342** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 38,289 | 1,321 | 4,643 | 268 |
+| Go | 38,775 | 1,354 | 4,686 | 269 |
 | Sh | 2,813 | 300 | 698 | 40 |
 | Yaml | 169 | 11 | 9 | 30 |
 | Makefile | 90 | 9 | 25 | 1 |
@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Fuzzing** (0/10) — project is not fuzzed
-- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.53.6` (2026-08-20)
-- **Last commit**: 2026-08-25
+- **Last commit**: 2026-09-15
 - **Assets in release**: 59
 
 ## Popularity
 
-- **Stars**: 15,955 · **Forks**: 833 · **Open issues**: 1,616 · **Contributors**: 155
+- **Stars**: 15,958 · **Forks**: 835 · **Open issues**: 1,616 · **Contributors**: 156
 
 ## Totals (cumulative)
 
-- **Releases**: 169 · **Merged PRs**: 532 · **Open PRs**: 52 · **Closed issues**: 1367 · **Open issues**: 249 · **Commits**: 2308
+- **Releases**: 169 · **Merged PRs**: 536 · **Open PRs**: 50 · **Closed issues**: 1370 · **Open issues**: 246 · **Commits**: 2312
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 2 | 5 | 21 | 3 | 9 | 1 |
-| last60d | 2026-07-16 | 2 | 14 | 30 | 8 | 13 | 39 |
-| 90d | 2026-06-16 | 2 | 34 | 37 | 8 | 14 | 47 |
-| last180d | 2026-03-18 | 5 | 95 | 47 | 28 | 23 | 138 |
-| 360d | 2025-09-19 | 13 | 152 | 51 | 63 | 53 | 294 |
-| last720d | 2024-09-24 | 22 | 221 | 52 | 142 | 115 | 496 |
+| 30d | 2026-08-16 | 2 | 9 | 19 | 4 | 8 | 5 |
+| last60d | 2026-07-17 | 2 | 18 | 28 | 10 | 11 | 43 |
+| 90d | 2026-06-17 | 2 | 38 | 35 | 10 | 12 | 51 |
+| last180d | 2026-03-19 | 5 | 99 | 45 | 30 | 21 | 142 |
+| 360d | 2025-09-20 | 13 | 156 | 49 | 65 | 51 | 298 |
+| last720d | 2024-09-25 | 22 | 225 | 50 | 143 | 112 | 500 |
 
 ## Release assets
 
@@ -138,4 +138,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T05:48:30Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T06:06:57Z._
