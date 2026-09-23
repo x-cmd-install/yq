@@ -4,7 +4,7 @@
 
 yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor
 
-[![x-cmd/install — yq Code Quality Monitoring Repo Card](https://repo.x-cmd.io/yq.svg?lang=zh)](https://x-cmd.com/install/yq)
+[![x-cmd/install — yq Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/yq.svg?lang=zh)](https://x-cmd.com/install/yq)
 
 ## 安装
 
@@ -43,27 +43,27 @@ x install yq
 ## 发布
 
 - **最新版本**: `v4.53.6` (2026-08-20)
-- **最近提交**: 2026-09-15
+- **最近提交**: 2026-09-22
 - **Release 含资产**: 59 个
 
 ## 流行度
 
-- **Star**: 15,990 · **Fork**: 1,303 · **开放 issue**: 1,616 · **贡献者**: 157
+- **Star**: 15,998 · **Fork**: 1,304 · **开放 issue**: 1,615 · **贡献者**: 157
 
 ## 累计统计
 
-- **发布数**: 169 · **已合并 PR**: 537 · **开放 PR**: 57 · **已关闭 issue**: 1370 · **开放 issue**: 246 · **提交数**: 2313
+- **发布数**: 169 · **已合并 PR**: 538 · **开放 PR**: 57 · **已关闭 issue**: 1369 · **开放 issue**: 246 · **提交数**: 2315
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 3 | 25 | 0 | 6 | 5 |
-| last60d | 2026-07-24 | 2 | 18 | 34 | 10 | 9 | 44 |
-| 90d | 2026-06-24 | 2 | 35 | 41 | 10 | 11 | 47 |
-| last180d | 2026-03-26 | 4 | 96 | 52 | 30 | 21 | 134 |
-| 360d | 2025-09-27 | 13 | 156 | 56 | 65 | 49 | 297 |
-| last720d | 2024-10-02 | 22 | 226 | 57 | 141 | 112 | 499 |
+| 30d | 2026-08-24 | 0 | 4 | 23 | 0 | 6 | 7 |
+| last60d | 2026-07-25 | 2 | 19 | 34 | 10 | 9 | 46 |
+| 90d | 2026-06-25 | 2 | 31 | 41 | 10 | 11 | 49 |
+| last180d | 2026-03-27 | 4 | 95 | 52 | 30 | 21 | 136 |
+| 360d | 2025-09-28 | 13 | 157 | 56 | 65 | 49 | 299 |
+| last720d | 2024-10-03 | 22 | 226 | 57 | 140 | 112 | 501 |
 
 ## Release 资产
 
@@ -138,4 +138,4 @@ yq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:47:23Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T05:48:45Z._

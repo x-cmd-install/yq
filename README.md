@@ -4,7 +4,7 @@
 
 yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor
 
-[![x-cmd/install — yq Code Quality Monitoring Repo Card](https://repo.x-cmd.io/yq.svg)](https://x-cmd.com/install/yq)
+[![x-cmd/install — yq Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/yq.svg)](https://x-cmd.com/install/yq)
 
 ## Install
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.53.6` (2026-08-20)
-- **Last commit**: 2026-09-15
+- **Last commit**: 2026-09-22
 - **Assets in release**: 59
 
 ## Popularity
 
-- **Stars**: 15,990 · **Forks**: 1,303 · **Open issues**: 1,616 · **Contributors**: 157
+- **Stars**: 15,998 · **Forks**: 1,304 · **Open issues**: 1,615 · **Contributors**: 157
 
 ## Totals (cumulative)
 
-- **Releases**: 169 · **Merged PRs**: 537 · **Open PRs**: 57 · **Closed issues**: 1370 · **Open issues**: 246 · **Commits**: 2313
+- **Releases**: 169 · **Merged PRs**: 538 · **Open PRs**: 57 · **Closed issues**: 1369 · **Open issues**: 246 · **Commits**: 2315
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 3 | 25 | 0 | 6 | 5 |
-| last60d | 2026-07-24 | 2 | 18 | 34 | 10 | 9 | 44 |
-| 90d | 2026-06-24 | 2 | 35 | 41 | 10 | 11 | 47 |
-| last180d | 2026-03-26 | 4 | 96 | 52 | 30 | 21 | 134 |
-| 360d | 2025-09-27 | 13 | 156 | 56 | 65 | 49 | 297 |
-| last720d | 2024-10-02 | 22 | 226 | 57 | 141 | 112 | 499 |
+| 30d | 2026-08-24 | 0 | 4 | 23 | 0 | 6 | 7 |
+| last60d | 2026-07-25 | 2 | 19 | 34 | 10 | 9 | 46 |
+| 90d | 2026-06-25 | 2 | 31 | 41 | 10 | 11 | 49 |
+| last180d | 2026-03-27 | 4 | 95 | 52 | 30 | 21 | 136 |
+| 360d | 2025-09-28 | 13 | 157 | 56 | 65 | 49 | 299 |
+| last720d | 2024-10-03 | 22 | 226 | 57 | 140 | 112 | 501 |
 
 ## Release assets
 
@@ -138,4 +138,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:47:23Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:48:44Z._
