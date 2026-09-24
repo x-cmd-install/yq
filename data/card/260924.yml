@@ -7,7 +7,7 @@ about:
   latestVersion: "v4.53.6"
   latestRelease: "v4.53.6"
   latestPrerelease: "v4.40.1"
-  collectedAt: 2026-09-24T04:39:01Z
+  collectedAt: 2026-09-24T05:23:11Z
 timeline:
   created: 2015-09-26
   lastCommit: 2026-09-24
@@ -17,7 +17,7 @@ timeline:
 popularity:
   star: 16001
   watcher: 68
-  fork: 1364
+  fork: 1367
   release: 169
   contributor: 158
   pullRequest: 752
@@ -86,7 +86,7 @@ total:
   commit: 2319
 ---
 path: /home/runner/.x-repo/github.com/mikefarah/yq
-collectedAt: 2026-09-24T04:39:02Z
+collectedAt: 2026-09-24T05:23:12Z
 loc:
   Go:
     code: 38810
