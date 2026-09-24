@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,001 · **Forks**: 1,364 · **Open issues**: 1,615 · **Contributors**: 158
+- **Stars**: 16,001 · **Forks**: 1,367 · **Open issues**: 1,615 · **Contributors**: 158
 
 ## Totals (cumulative)
 
@@ -138,4 +138,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260924.yml` · 2026-09-24T04:39:08Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T05:23:18Z._
