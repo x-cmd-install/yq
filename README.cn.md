@@ -26,13 +26,13 @@ x install yq
 
 ## OpenSSF Scorecard 评分
 
-总评分: **7.6 / 10**
+总评分: **7.5 / 10**
 
 评分最低的几项:
 
+- **Code-Review** (4/10) — Found 8/17 approved changesets -- score normalized to 4
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
-- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install yq
 
 ## 流行度
 
-- **Star**: 16,001 · **Fork**: 1,367 · **开放 issue**: 1,615 · **贡献者**: 158
+- **Star**: 16,008 · **Fork**: 1,540 · **开放 issue**: 1,615 · **贡献者**: 158
 
 ## 累计统计
 
-- **发布数**: 169 · **已合并 PR**: 542 · **开放 PR**: 57 · **已关闭 issue**: 1369 · **开放 issue**: 246 · **提交数**: 2319
+- **发布数**: 169 · **已合并 PR**: 547 · **开放 PR**: 52 · **已关闭 issue**: 1369 · **开放 issue**: 246 · **提交数**: 2324
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-25 | 0 | 8 | 23 | 0 | 6 | 10 |
-| last60d | 2026-07-26 | 2 | 23 | 34 | 10 | 9 | 49 |
-| 90d | 2026-06-26 | 2 | 35 | 40 | 10 | 11 | 52 |
-| last180d | 2026-03-28 | 4 | 99 | 52 | 30 | 21 | 139 |
-| 360d | 2025-09-29 | 13 | 161 | 56 | 65 | 49 | 302 |
-| last720d | 2024-10-04 | 22 | 230 | 57 | 140 | 112 | 505 |
+| 30d | 2026-08-26 | 0 | 13 | 18 | 0 | 6 | 15 |
+| last60d | 2026-07-27 | 2 | 28 | 28 | 10 | 9 | 54 |
+| 90d | 2026-06-27 | 2 | 39 | 35 | 10 | 11 | 57 |
+| last180d | 2026-03-29 | 4 | 104 | 47 | 30 | 20 | 144 |
+| 360d | 2025-09-30 | 13 | 166 | 51 | 65 | 49 | 307 |
+| last720d | 2024-10-05 | 22 | 235 | 52 | 140 | 112 | 510 |
 
 ## Release 资产
 
@@ -138,4 +138,4 @@ yq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260924.yml` · 2026-09-24T05:23:18Z._
+_数据快照: `data/card/260925.yml` · 2026-09-25T05:37:55Z._
