@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **Code-Review** (4/10) — Found 8/18 approved changesets -- score normalized to 4
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,026 · **Forks**: 2,053 · **Open issues**: 1,617 · **Contributors**: 160
+- **Stars**: 16,031 · **Forks**: 2,161 · **Open issues**: 1,617 · **Contributors**: 160
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 1 | 15 | 15 | 1 | 6 | 24 |
-| last60d | 2026-07-31 | 3 | 33 | 26 | 10 | 10 | 43 |
-| 90d | 2026-07-01 | 3 | 45 | 33 | 11 | 12 | 63 |
-| last180d | 2026-04-02 | 5 | 109 | 46 | 31 | 20 | 146 |
-| 360d | 2025-10-04 | 14 | 171 | 50 | 66 | 49 | 316 |
-| last720d | 2024-10-09 | 23 | 241 | 51 | 141 | 113 | 519 |
+| 30d | 2026-08-31 | 1 | 15 | 14 | 0 | 6 | 24 |
+| last60d | 2026-08-01 | 3 | 33 | 25 | 10 | 10 | 43 |
+| 90d | 2026-07-02 | 3 | 44 | 33 | 11 | 12 | 63 |
+| last180d | 2026-04-03 | 5 | 109 | 46 | 31 | 20 | 146 |
+| 360d | 2025-10-05 | 14 | 171 | 50 | 66 | 49 | 316 |
+| last720d | 2024-10-10 | 23 | 240 | 51 | 141 | 112 | 519 |
 
 ## Release assets
 
@@ -138,4 +138,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T06:29:20Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T06:12:55Z._
