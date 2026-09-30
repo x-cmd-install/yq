@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 110676,
       "digest": "sha256:af125e50d6ba34f0746b6a07c3549b449546a74ea109ce497ede216539f2a865",
-      "download_count": 333,
+      "download_count": 6420,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:43Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/checksums"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 162363,
       "digest": "sha256:0a16d0ba56957fd29277e034c6c11520a04bd99e6a87e283596ac930f1e662f8",
-      "download_count": 386,
+      "download_count": 3165,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:42Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/checksums-bsd"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 10191,
       "digest": "sha256:cc022e21f0ebeb1561abf9611b26df7bcc343335140e1cdcfa8d7ed67253c58b",
-      "download_count": 367,
+      "download_count": 2856,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:42Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/checksums-bsd.bundle"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 10191,
       "digest": "sha256:2e0643fabf84934222a931ed684ba1843998d62c80db1db6c0a751f949ea70cc",
-      "download_count": 10,
+      "download_count": 85,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:42Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/checksums.bundle"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 252,
       "digest": "sha256:5f19ad6a428e9d819a489e22da8a824dcaedd4f39818ad40fd3f2f9aaf0beb48",
-      "download_count": 82,
+      "download_count": 839,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:42Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/checksums_hashes_order"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 1871,
       "digest": "sha256:c7434813751c40a98b8debbba669d191423a2ffb72e2cfe340a717a2ec2845f5",
-      "download_count": 21,
+      "download_count": 275,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:42Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/extract-checksum.sh"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 14395840,
       "digest": "sha256:3a812fce205a4d67014fb71b7fa297092210e580df3d8f52dddc2cf3a599c22b",
-      "download_count": 77,
+      "download_count": 1037,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_darwin_amd64"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 5788773,
       "digest": "sha256:b2cc367e9f5491b3b9b191aa19ba3a3163daf99d84f90bc7bd8918010a66e69a",
-      "download_count": 9,
+      "download_count": 106,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_darwin_amd64.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 13414050,
       "digest": "sha256:fee511a181bd8b3e6b7da98842b41973bfac8cd3bcd341ed29a584620b5b2844",
-      "download_count": 119,
+      "download_count": 1695,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_darwin_arm64"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 5313383,
       "digest": "sha256:60d0c91aa8bf4030d38e80bb05f84c20be2e955f24d62b2e55d15ad643fa7afa",
-      "download_count": 13,
+      "download_count": 192,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_darwin_arm64.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 13705386,
       "digest": "sha256:73b998bc382958cb545ba391876f98115ab510707770c53160c0c0d0896ea13a",
-      "download_count": 7,
+      "download_count": 77,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_freebsd_386"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 5523651,
       "digest": "sha256:36ab9e1c1d32c9d503f4cbe2d0bd77548b1b4506a17febe7d3d41d73b7c32267",
-      "download_count": 7,
+      "download_count": 79,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_freebsd_386.tar.gz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 14102698,
       "digest": "sha256:cec9d96ac09e42981e32a4e5ccd3d918bdce8e03ef1eb2fc8cb3e0e0bcb75cbd",
-      "download_count": 7,
+      "download_count": 81,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_freebsd_amd64"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 5698930,
       "digest": "sha256:c72cf3ca4f8eda46d2018ba763fb8d323ed0235f5b61328ddb8ef6b62392b358",
-      "download_count": 7,
+      "download_count": 78,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_freebsd_amd64.tar.gz"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 14024874,
       "digest": "sha256:26fd320216959f95ec75c68e15153f5a5190aed40ca8123b3e8f0590267381c5",
-      "download_count": 7,
+      "download_count": 75,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_freebsd_arm"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 5531960,
       "digest": "sha256:6bd22206d69ba773ee95c6b580f71b9a3e493c4dd4dce144ce1ff8ee83f64193",
-      "download_count": 7,
+      "download_count": 76,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_freebsd_arm.tar.gz"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 13865120,
       "digest": "sha256:2812ba673ae087d2c2f7c4f539841f18e1c99a05d16b7e3f70c09c464986d78c",
-      "download_count": 12,
+      "download_count": 276,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_386"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 5558365,
       "digest": "sha256:6d7867802667266d12c6147a9af27b8cec8e318282feec8de572cb6f768890b9",
-      "download_count": 8,
+      "download_count": 85,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_386.tar.gz"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 14168224,
       "digest": "sha256:8e34fc298390875de416e6a4afcb8cabeceb25d9aa8506c1a2f9353cf702ea5f",
-      "download_count": 4956,
+      "download_count": 73761,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_amd64"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 5726505,
       "digest": "sha256:e68a456f90c577af3fe4960184b3a3cf5c461e0348407c10f107da3a5fec8972",
-      "download_count": 266,
+      "download_count": 3699,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_amd64.tar.gz"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 14155936,
       "digest": "sha256:a5d45c07b75fab772193c4a79f4df9f5c8ed33836fa0f36dcc947f9495439b00",
-      "download_count": 10,
+      "download_count": 96,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_arm"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 5559507,
       "digest": "sha256:36d13e89b5b6340711d150b737f8d686d5d641e3dd7c57c31fa39b229fb6ad7f",
-      "download_count": 8,
+      "download_count": 95,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_arm.tar.gz"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 13172896,
       "digest": "sha256:189088da0c6429ec5178dfaab1a114805f6cab0b61b165ab236efedf1d57a71b",
-      "download_count": 648,
+      "download_count": 8862,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_arm64"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 5146133,
       "digest": "sha256:8c27f6e7476fb5acefb9352e3d30f6bc2dc93f1956eb92e8da727173fb7ec6d3",
-      "download_count": 33,
+      "download_count": 300,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_arm64.tar.gz"
@@ -931,7 +931,7 @@
       "state": "uploaded",
       "size": 14287008,
       "digest": "sha256:b7b1b8ab32c3163b941314220f845e2cce63d411ed954647215d783163cb4c28",
-      "download_count": 7,
+      "download_count": 26,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_loong64"
@@ -967,7 +967,7 @@
       "state": "uploaded",
       "size": 5416525,
       "digest": "sha256:41efc3ad876d8f9d42f2199ef5f7320d70df0d4158c0da596458c839369a66f1",
-      "download_count": 7,
+      "download_count": 82,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_loong64.tar.gz"
@@ -1003,7 +1003,7 @@
       "state": "uploaded",
       "size": 15728831,
       "digest": "sha256:94c57edd3f41c004e09821cad2407f46148d04fe27af2f58e4d5d125c4e8ac72",
-      "download_count": 7,
+      "download_count": 30,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mips"
@@ -1039,7 +1039,7 @@
       "state": "uploaded",
       "size": 5331621,
       "digest": "sha256:913f0ce0dd811ebff6c842bac91ba962486826a4af3d1c97d781f7d065b70713",
-      "download_count": 7,
+      "download_count": 79,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mips.tar.gz"
@@ -1075,7 +1075,7 @@
       "state": "uploaded",
       "size": 15859872,
       "digest": "sha256:abb0868510e267f702f343b0211baa21a43f017b6ef0b2ac0ca41a244ade7546",
-      "download_count": 7,
+      "download_count": 25,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mips64"
@@ -1111,7 +1111,7 @@
       "state": "uploaded",
       "size": 5171499,
       "digest": "sha256:c01535025685052b60b26604595a97f21b22aad80d08d428ccac3e3011842236",
-      "download_count": 7,
+      "download_count": 79,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mips64.tar.gz"
@@ -1147,7 +1147,7 @@
       "state": "uploaded",
       "size": 15859872,
       "digest": "sha256:0a916f0fae906fdf81d732d94faace3806e3a35399272ad8547803c0e22fcc63",
-      "download_count": 7,
+      "download_count": 26,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mips64le"
@@ -1183,7 +1183,7 @@
       "state": "uploaded",
       "size": 5070502,
       "digest": "sha256:01a9d9ce7d3927ac7794640a6b1971e5903776dde8aac67f2c67a08d0934ab21",
-      "download_count": 7,
+      "download_count": 77,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mips64le.tar.gz"
@@ -1219,7 +1219,7 @@
       "state": "uploaded",
       "size": 15663295,
       "digest": "sha256:92ff0ef93c4585d7a70f7638545a1579d0f75797b7c8f2ea1d9d7b8d86d6b075",
-      "download_count": 9,
+      "download_count": 77,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mipsle"
@@ -1255,7 +1255,7 @@
       "state": "uploaded",
       "size": 5238364,
       "digest": "sha256:cfb27abfacb20efd44740aa203de6a74eb367a7b5eadffff0954652519ddbd02",
-      "download_count": 7,
+      "download_count": 78,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mipsle.tar.gz"
@@ -1291,7 +1291,7 @@
       "state": "uploaded",
       "size": 13893792,
       "digest": "sha256:74a85765197628123a332febfae179acf858c41c20d19df4a0f3ffb0b44dfe1c",
-      "download_count": 7,
+      "download_count": 77,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_ppc64"
@@ -1327,7 +1327,7 @@
       "state": "uploaded",
       "size": 5292158,
       "digest": "sha256:464c237816f0fe9cc5c37730bed66444f951390d34f693ada9f1e91d13ff9182",
-      "download_count": 7,
+      "download_count": 78,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_ppc64.tar.gz"
@@ -1363,7 +1363,7 @@
       "state": "uploaded",
       "size": 13893792,
       "digest": "sha256:52ce9ff0c0313907d422bce3f409dba858a95db5796789bb3acaf63407039215",
-      "download_count": 15,
+      "download_count": 119,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_ppc64le"
@@ -1399,7 +1399,7 @@
       "state": "uploaded",
       "size": 5242843,
       "digest": "sha256:c4adb42eedad3c459f29aca99518e1742127180476ebac38fabeb12fd58a6be4",
-      "download_count": 7,
+      "download_count": 83,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_ppc64le.tar.gz"
@@ -1435,7 +1435,7 @@
       "state": "uploaded",
       "size": 12714144,
       "digest": "sha256:5a0517fa098e690d568b9bb59fefb4efc36946c9b52780546c2fa004ce028925",
-      "download_count": 7,
+      "download_count": 80,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_riscv64"
@@ -1471,7 +1471,7 @@
       "state": "uploaded",
       "size": 5412394,
       "digest": "sha256:490565f1a9c23823cf313946443d49c8b70d0ca5a474b141aa8689709287bd56",
-      "download_count": 7,
+      "download_count": 84,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_riscv64.tar.gz"
@@ -1507,7 +1507,7 @@
       "state": "uploaded",
       "size": 14680224,
       "digest": "sha256:782f33f660c787b66cfdc9e7c7d1c2f8278756fbf5ce92ba54465ef19faba004",
-      "download_count": 16,
+      "download_count": 70,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_s390x"
@@ -1543,7 +1543,7 @@
       "state": "uploaded",
       "size": 5637916,
       "digest": "sha256:2f451d79dca70acc9899066793c7b7e1dbe05127e766c99d438ad6181e327d61",
-      "download_count": 7,
+      "download_count": 83,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_s390x.tar.gz"
@@ -1579,7 +1579,7 @@
       "state": "uploaded",
       "size": 49910,
       "digest": "sha256:2f9db96faeb11a82fa80fe5af35d955f306b04e4d530e25f85b3574b41107414",
-      "download_count": 16,
+      "download_count": 107,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:42Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_man_page_only.tar.gz"
@@ -1615,7 +1615,7 @@
       "state": "uploaded",
       "size": 13676723,
       "digest": "sha256:ad2f9962f608b274d2b13297f0f737a8d59f7a7de31f4e23c4e88be358ceabd4",
-      "download_count": 7,
+      "download_count": 79,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_netbsd_386"
@@ -1651,7 +1651,7 @@
       "state": "uploaded",
       "size": 5512440,
       "digest": "sha256:f67f636d2baadd47b9bc75a4b631ff19ff9610799738bb69b1c79ba250d069e7",
-      "download_count": 7,
+      "download_count": 80,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_netbsd_386.tar.gz"
@@ -1687,7 +1687,7 @@
       "state": "uploaded",
       "size": 14074035,
       "digest": "sha256:204f27f721facf0813598e01253e96a8556f53f86e55c0f64378ac169a1e45df",
-      "download_count": 7,
+      "download_count": 78,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_netbsd_amd64"
@@ -1723,7 +1723,7 @@
       "state": "uploaded",
       "size": 5686614,
       "digest": "sha256:2c2099bfcb93c2df90a9b1dd6ca0850f2dc0cead781798fa8476a1a734410217",
-      "download_count": 7,
+      "download_count": 79,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_netbsd_amd64.tar.gz"
@@ -1759,7 +1759,7 @@
       "state": "uploaded",
       "size": 14024883,
       "digest": "sha256:49d6900a2c1b3f9a76f2dc68e5f2330360eace40646892c90e0482d9a6e54ac7",
-      "download_count": 7,
+      "download_count": 74,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_netbsd_arm"
@@ -1795,7 +1795,7 @@
       "state": "uploaded",
       "size": 5519462,
       "digest": "sha256:81ff3041f33cac6409f7d8dead2f4f3b91963a04c0f1a69ba0b2a82276daddff",
-      "download_count": 7,
+      "download_count": 73,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_netbsd_arm.tar.gz"
@@ -1831,7 +1831,7 @@
       "state": "uploaded",
       "size": 13709593,
       "digest": "sha256:c692d4ce943cf4042ff157f5044df14c8fb4c217827cb5c5d9540ddea81e9d23",
-      "download_count": 7,
+      "download_count": 79,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_openbsd_386"
@@ -1867,7 +1867,7 @@
       "state": "uploaded",
       "size": 5520591,
       "digest": "sha256:9a29fbb866788196bb2cd28cde876f5940b0515f4a3b1f055827b806cbbfea7f",
-      "download_count": 7,
+      "download_count": 80,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_openbsd_386.tar.gz"
@@ -1903,7 +1903,7 @@
       "state": "uploaded",
       "size": 14115099,
       "digest": "sha256:57f0b9bb716ffad8a08bb244f03212545e867932eff286ba2cda44b358103609",
-      "download_count": 7,
+      "download_count": 81,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_openbsd_amd64"
@@ -1939,7 +1939,7 @@
       "state": "uploaded",
       "size": 5696405,
       "digest": "sha256:b62c2f9a069cd330e175738c07c7b6db8146cfb6194d7fa90738d8db547a2745",
-      "download_count": 7,
+      "download_count": 79,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_openbsd_amd64.tar.gz"
@@ -1975,7 +1975,7 @@
       "state": "uploaded",
       "size": 14315008,
       "digest": "sha256:ddb66d113da67ed9f62728268e64bbd3c2a1e31d2ecfcde0c95ba5926555a73e",
-      "download_count": 11,
+      "download_count": 80,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_windows_386.exe"
@@ -2011,7 +2011,7 @@
       "state": "uploaded",
       "size": 5761815,
       "digest": "sha256:69948a4ca8ec1ee85b96bf98954ffc577937a25799b11be052c9cb3dbb59fc88",
-      "download_count": 8,
+      "download_count": 84,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_windows_386.zip"
@@ -2047,7 +2047,7 @@
       "state": "uploaded",
       "size": 14615040,
       "digest": "sha256:b645f47ebb3a0d2fbab52998550bbd0a1706f23b5ca5f5b48e638c580bb70928",
-      "download_count": 186,
+      "download_count": 3048,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_windows_amd64.exe"
@@ -2083,7 +2083,7 @@
       "state": "uploaded",
       "size": 5829372,
       "digest": "sha256:c2fb1234e58a3b80e358a0a8baeaf7ec51bfa698bbe40e2fcab0ed37d590c107",
-      "download_count": 8,
+      "download_count": 119,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_windows_amd64.zip"
@@ -2119,7 +2119,7 @@
       "state": "uploaded",
       "size": 13358080,
       "digest": "sha256:c46a295a98c31173e72220da7c35f86fbcc1c2cd2da5188105f326b32585e984",
-      "download_count": 14,
+      "download_count": 91,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:45Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_windows_arm64.exe"
@@ -2155,7 +2155,7 @@
       "state": "uploaded",
       "size": 5184398,
       "digest": "sha256:2b2d1bc0db6d9801f6579aa2946871f1e6a598737a5ffcc6b043ea8c704e8991",
-      "download_count": 7,
+      "download_count": 65,
       "created_at": "2026-09-29T04:14:42Z",
       "updated_at": "2026-09-29T04:14:44Z",
       "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_windows_arm64.zip"
@@ -2166,11 +2166,11 @@
   "body": "  - Added jq style `if-then-elif-else-end` conditional operator (#2871) Thanks to @anandghegde\r\n  - Added `@base64url`/`@base64urld` operators (RFC 4648 §5) (#2827) Thanks @MsfPablo\r\n  - Fixed: preserve explicit assignments in read-only expressions (#2850) Thanks @RRXXZZYY\r\n  - Fixed: error on int64 overflow in +, -, * instead of silently wrapping (#2826) Thanks @MsfPablo\r\n  - Fixed(toml): quote empty keys (#2870) Thanks @jakezwang\r\n  - Fixed: /dev/null was triggering colour output (#2852) Thanks @laraibg786\r\n  - Fixed dead snapcraft confinement link in README (#2840) Thanks @ShurongCAO\r\n  - Bumped dependencies",
   "reactions": {
     "url": "https://api.github.com/repos/mikefarah/yq/releases/398818604/reactions",
-    "total_count": 3,
-    "+1": 1,
+    "total_count": 8,
+    "+1": 3,
     "-1": 0,
     "laugh": 1,
-    "hooray": 0,
+    "hooray": 3,
     "confused": 0,
     "heart": 1,
     "rocket": 0,
