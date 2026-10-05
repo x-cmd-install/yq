@@ -31,8 +31,8 @@ Overall score: **7.6 / 10**
 Lowest-scoring checks:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.54.1` (2026-09-29)
-- **Last commit**: 2026-10-01
+- **Last commit**: 2026-10-05
 - **Assets in release**: 59
 
 ## Popularity
 
-- **Stars**: 16,049 · **Forks**: 2,393 · **Open issues**: 1,617 · **Contributors**: 161
+- **Stars**: 16,057 · **Forks**: 2,486 · **Open issues**: 1,617 · **Contributors**: 161
 
 ## Totals (cumulative)
 
-- **Releases**: 170 · **Merged PRs**: 555 · **Open PRs**: 57 · **Closed issues**: 1374 · **Open issues**: 243 · **Commits**: 2335
+- **Releases**: 170 · **Merged PRs**: 559 · **Open PRs**: 51 · **Closed issues**: 1374 · **Open issues**: 243 · **Commits**: 2339
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 1 | 14 | 20 | 1 | 3 | 26 |
-| last60d | 2026-08-05 | 3 | 35 | 31 | 8 | 8 | 45 |
-| 90d | 2026-07-06 | 3 | 44 | 36 | 12 | 11 | 65 |
-| last180d | 2026-04-07 | 5 | 105 | 51 | 32 | 17 | 148 |
-| 360d | 2025-10-09 | 14 | 170 | 56 | 67 | 46 | 318 |
-| last720d | 2024-10-14 | 23 | 242 | 57 | 142 | 108 | 521 |
+| 30d | 2026-09-05 | 1 | 18 | 14 | 1 | 3 | 30 |
+| last60d | 2026-08-06 | 3 | 34 | 25 | 8 | 8 | 48 |
+| 90d | 2026-07-07 | 3 | 48 | 29 | 12 | 11 | 69 |
+| last180d | 2026-04-08 | 5 | 109 | 45 | 32 | 17 | 142 |
+| 360d | 2025-10-10 | 14 | 174 | 50 | 67 | 46 | 310 |
+| last720d | 2024-10-15 | 23 | 246 | 51 | 142 | 107 | 525 |
 
 ## Release assets
 
@@ -138,4 +138,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261004.yml` · 2026-10-04T06:31:28Z._
+_Snapshot: `data/card/261005.yml` · 2026-10-05T06:24:05Z._

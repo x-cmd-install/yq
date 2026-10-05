@@ -31,8 +31,8 @@ x install yq
 评分最低的几项:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install yq
 ## 发布
 
 - **最新版本**: `v4.54.1` (2026-09-29)
-- **最近提交**: 2026-10-01
+- **最近提交**: 2026-10-05
 - **Release 含资产**: 59 个
 
 ## 流行度
 
-- **Star**: 16,049 · **Fork**: 2,393 · **开放 issue**: 1,617 · **贡献者**: 161
+- **Star**: 16,057 · **Fork**: 2,486 · **开放 issue**: 1,617 · **贡献者**: 161
 
 ## 累计统计
 
-- **发布数**: 170 · **已合并 PR**: 555 · **开放 PR**: 57 · **已关闭 issue**: 1374 · **开放 issue**: 243 · **提交数**: 2335
+- **发布数**: 170 · **已合并 PR**: 559 · **开放 PR**: 51 · **已关闭 issue**: 1374 · **开放 issue**: 243 · **提交数**: 2339
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 1 | 14 | 20 | 1 | 3 | 26 |
-| last60d | 2026-08-05 | 3 | 35 | 31 | 8 | 8 | 45 |
-| 90d | 2026-07-06 | 3 | 44 | 36 | 12 | 11 | 65 |
-| last180d | 2026-04-07 | 5 | 105 | 51 | 32 | 17 | 148 |
-| 360d | 2025-10-09 | 14 | 170 | 56 | 67 | 46 | 318 |
-| last720d | 2024-10-14 | 23 | 242 | 57 | 142 | 108 | 521 |
+| 30d | 2026-09-05 | 1 | 18 | 14 | 1 | 3 | 30 |
+| last60d | 2026-08-06 | 3 | 34 | 25 | 8 | 8 | 48 |
+| 90d | 2026-07-07 | 3 | 48 | 29 | 12 | 11 | 69 |
+| last180d | 2026-04-08 | 5 | 109 | 45 | 32 | 17 | 142 |
+| 360d | 2025-10-10 | 14 | 174 | 50 | 67 | 46 | 310 |
+| last720d | 2024-10-15 | 23 | 246 | 51 | 142 | 107 | 525 |
 
 ## Release 资产
 
@@ -138,4 +138,4 @@ yq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261004.yml` · 2026-10-04T06:31:29Z._
+_数据快照: `data/card/261005.yml` · 2026-10-05T06:24:06Z._
