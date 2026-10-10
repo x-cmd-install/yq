@@ -26,13 +26,13 @@ x install yq
 
 ## OpenSSF Scorecard 评分
 
-总评分: **7.6 / 10**
+总评分: **7.2 / 10**
 
 评分最低的几项:
 
+- **Code-Review** (4/10) — Found 4/9 approved changesets -- score normalized to 4
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
-- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install yq
 ## 发布
 
 - **最新版本**: `v4.54.1` (2026-09-29)
-- **最近提交**: 2026-10-05
+- **最近提交**: 2026-10-09
 - **Release 含资产**: 59 个
 
 ## 流行度
 
-- **Star**: 16,068 · **Fork**: 2,778 · **开放 issue**: 1,617 · **贡献者**: 160
+- **Star**: 16,069 · **Fork**: 2,943 · **开放 issue**: 1,618 · **贡献者**: 160
 
 ## 累计统计
 
-- **发布数**: 170 · **已合并 PR**: 559 · **开放 PR**: 56 · **已关闭 issue**: 1374 · **开放 issue**: 243 · **提交数**: 2339
+- **发布数**: 170 · **已合并 PR**: 563 · **开放 PR**: 52 · **已关闭 issue**: 1374 · **开放 issue**: 244 · **提交数**: 2343
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-09 | 1 | 18 | 19 | 1 | 3 | 30 |
-| last60d | 2026-08-10 | 3 | 33 | 30 | 7 | 8 | 48 |
-| 90d | 2026-07-11 | 3 | 41 | 34 | 12 | 11 | 69 |
-| last180d | 2026-04-12 | 5 | 106 | 49 | 30 | 17 | 142 |
-| 360d | 2025-10-14 | 13 | 173 | 55 | 66 | 46 | 310 |
-| last720d | 2024-10-19 | 23 | 246 | 56 | 142 | 105 | 525 |
+| 30d | 2026-09-10 | 1 | 21 | 15 | 0 | 4 | 34 |
+| last60d | 2026-08-11 | 3 | 36 | 26 | 7 | 9 | 52 |
+| 90d | 2026-07-12 | 3 | 45 | 30 | 12 | 12 | 73 |
+| last180d | 2026-04-13 | 5 | 109 | 45 | 29 | 18 | 146 |
+| 360d | 2025-10-15 | 13 | 177 | 51 | 66 | 46 | 314 |
+| last720d | 2024-10-20 | 23 | 250 | 52 | 142 | 106 | 529 |
 
 ## Release 资产
 
@@ -138,4 +138,4 @@ yq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261009.yml` · 2026-10-09T06:51:34Z._
+_数据快照: `data/card/261010.yml` · 2026-10-10T06:25:07Z._
