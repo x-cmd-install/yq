@@ -14,11 +14,11 @@ x install yq
 
 ## Code insight
 
-Total: **42,844** lines of code across **346** files in the top 5 languages.
+Total: **42,936** lines of code across **347** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 39,660 | 1,382 | 4,740 | 273 |
+| Go | 39,752 | 1,385 | 4,746 | 274 |
 | Sh | 2,813 | 300 | 698 | 40 |
 | Yaml | 169 | 11 | 9 | 30 |
 | Makefile | 90 | 9 | 25 | 1 |
@@ -26,13 +26,13 @@ Total: **42,844** lines of code across **346** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **7.3 / 10**
+Overall score: **7.7 / 10**
 
 Lowest-scoring checks:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Fuzzing** (0/10) — project is not fuzzed
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.54.1` (2026-09-29)
-- **Last commit**: 2026-10-20
+- **Last commit**: 2026-10-27
 - **Assets in release**: 59
 
 ## Popularity
 
-- **Stars**: 16,188 · **Forks**: 2,710 · **Open issues**: 1,624 · **Contributors**: 163
+- **Stars**: 16,192 · **Forks**: 2,708 · **Open issues**: 1,624 · **Contributors**: 166
 
 ## Totals (cumulative)
 
-- **Releases**: 170 · **Merged PRs**: 571 · **Open PRs**: 75 · **Closed issues**: 1375 · **Open issues**: 249 · **Commits**: 2351
+- **Releases**: 170 · **Merged PRs**: 578 · **Open PRs**: 68 · **Closed issues**: 1378 · **Open issues**: 246 · **Commits**: 2358
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 1 | 16 | 32 | 0 | 8 | 16 |
-| last60d | 2026-08-27 | 1 | 33 | 43 | 3 | 12 | 42 |
-| 90d | 2026-07-28 | 3 | 51 | 52 | 12 | 15 | 75 |
-| last180d | 2026-04-29 | 4 | 102 | 68 | 20 | 23 | 134 |
-| 360d | 2025-10-31 | 13 | 185 | 74 | 63 | 49 | 322 |
-| last720d | 2024-11-05 | 23 | 256 | 75 | 140 | 110 | 537 |
+| 30d | 2026-09-27 | 1 | 21 | 26 | 0 | 8 | 23 |
+| last60d | 2026-08-28 | 1 | 40 | 36 | 3 | 11 | 49 |
+| 90d | 2026-07-29 | 3 | 58 | 44 | 12 | 15 | 82 |
+| last180d | 2026-04-30 | 4 | 109 | 60 | 19 | 23 | 141 |
+| 360d | 2025-11-01 | 13 | 192 | 67 | 64 | 48 | 329 |
+| last720d | 2024-11-06 | 23 | 262 | 68 | 141 | 109 | 544 |
 
 ## Release assets
 
@@ -131,11 +131,11 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **176** distros on [repology.org](https://repology.org/project/yq). **33** are ✅ on the latest upstream release, **69** are ⚠️ on an older version.
+Reported by **177** distros on [repology.org](https://repology.org/project/yq). **35** are ✅ on the latest upstream release, **67** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `4.53.3` | ⚠️ outdated |
+| Debian unstable | `4.53.3` | 🪦 legacy |
 | Debian 14 | `4.53.3` | ⚠️ outdated |
 | Arch | `4.54.1` | ✅ latest |
 | Homebrew | `4.54.1` | ✅ latest |
@@ -154,4 +154,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:21:51Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:55:05Z._
