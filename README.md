@@ -31,8 +31,8 @@ Overall score: **7.7 / 10**
 Lowest-scoring checks:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 - **Fuzzing** (0/10) — project is not fuzzed
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,192 · **Forks**: 2,708 · **Open issues**: 1,624 · **Contributors**: 166
+- **Stars**: 16,195 · **Forks**: 2,705 · **Open issues**: 1,624 · **Contributors**: 166
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 1 | 21 | 26 | 0 | 8 | 23 |
-| last60d | 2026-08-28 | 1 | 40 | 36 | 3 | 11 | 49 |
-| 90d | 2026-07-29 | 3 | 58 | 44 | 12 | 15 | 82 |
-| last180d | 2026-04-30 | 4 | 109 | 60 | 19 | 23 | 141 |
-| 360d | 2025-11-01 | 13 | 192 | 67 | 64 | 48 | 329 |
-| last720d | 2024-11-06 | 23 | 262 | 68 | 141 | 109 | 544 |
+| 30d | 2026-09-28 | 1 | 21 | 26 | 0 | 7 | 23 |
+| last60d | 2026-08-29 | 1 | 40 | 35 | 3 | 11 | 49 |
+| 90d | 2026-07-30 | 3 | 58 | 44 | 12 | 15 | 82 |
+| last180d | 2026-05-01 | 4 | 109 | 60 | 19 | 23 | 141 |
+| 360d | 2025-11-02 | 13 | 192 | 67 | 64 | 48 | 329 |
+| last720d | 2024-11-07 | 23 | 262 | 68 | 141 | 109 | 544 |
 
 ## Release assets
 
@@ -131,11 +131,11 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **177** distros on [repology.org](https://repology.org/project/yq). **35** are ✅ on the latest upstream release, **67** are ⚠️ on an older version.
+Reported by **176** distros on [repology.org](https://repology.org/project/yq). **35** are ✅ on the latest upstream release, **67** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `4.53.3` | 🪦 legacy |
+| Debian unstable | `4.54.1` | ✅ latest |
 | Debian 14 | `4.53.3` | ⚠️ outdated |
 | Arch | `4.54.1` | ✅ latest |
 | Homebrew | `4.54.1` | ✅ latest |
@@ -154,4 +154,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T05:55:05Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T06:23:18Z._
