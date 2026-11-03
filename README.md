@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,215 · **Forks**: 2,103 · **Open issues**: 1,626 · **Contributors**: 166
+- **Stars**: 16,217 · **Forks**: 2,100 · **Open issues**: 1,626 · **Contributors**: 166
 
 ## Totals (cumulative)
 
-- **Releases**: 170 · **Merged PRs**: 578 · **Open PRs**: 76 · **Closed issues**: 1378 · **Open issues**: 248 · **Commits**: 2358
+- **Releases**: 170 · **Merged PRs**: 578 · **Open PRs**: 77 · **Closed issues**: 1378 · **Open issues**: 248 · **Commits**: 2358
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 0 | 16 | 31 | 0 | 9 | 19 |
-| last60d | 2026-09-03 | 1 | 37 | 41 | 2 | 11 | 49 |
-| 90d | 2026-08-04 | 3 | 58 | 51 | 9 | 17 | 67 |
-| last180d | 2026-05-06 | 4 | 107 | 68 | 19 | 25 | 141 |
-| 360d | 2025-11-07 | 13 | 191 | 75 | 62 | 49 | 324 |
-| last720d | 2024-11-12 | 23 | 261 | 76 | 141 | 110 | 541 |
+| 30d | 2026-10-04 | 0 | 16 | 32 | 0 | 9 | 19 |
+| last60d | 2026-09-04 | 1 | 36 | 42 | 2 | 11 | 49 |
+| 90d | 2026-08-05 | 3 | 58 | 52 | 9 | 16 | 67 |
+| last180d | 2026-05-07 | 4 | 106 | 69 | 19 | 25 | 141 |
+| 360d | 2025-11-08 | 13 | 191 | 76 | 62 | 49 | 324 |
+| last720d | 2024-11-13 | 23 | 261 | 77 | 141 | 109 | 541 |
 
 ## Release assets
 
@@ -154,4 +154,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T06:53:36Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T07:36:42Z._
