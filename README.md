@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.54.1` (2026-09-29)
-- **Last commit**: 2026-10-27
+- **Last commit**: 2026-11-05
 - **Assets in release**: 59
 
 ## Popularity
 
-- **Stars**: 16,223 · **Forks**: 2,099 · **Open issues**: 1,626 · **Contributors**: 166
+- **Stars**: 16,229 · **Forks**: 2,079 · **Open issues**: 1,628 · **Contributors**: 166
 
 ## Totals (cumulative)
 
-- **Releases**: 170 · **Merged PRs**: 578 · **Open PRs**: 77 · **Closed issues**: 1378 · **Open issues**: 248 · **Commits**: 2358
+- **Releases**: 170 · **Merged PRs**: 579 · **Open PRs**: 79 · **Closed issues**: 1379 · **Open issues**: 249 · **Commits**: 2359
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 16 | 32 | 0 | 9 | 19 |
-| last60d | 2026-09-05 | 1 | 36 | 42 | 2 | 11 | 49 |
-| 90d | 2026-08-06 | 3 | 53 | 52 | 9 | 16 | 67 |
-| last180d | 2026-05-08 | 4 | 105 | 69 | 19 | 24 | 141 |
-| 360d | 2025-11-09 | 13 | 191 | 76 | 62 | 49 | 324 |
-| last720d | 2024-11-14 | 23 | 259 | 77 | 141 | 109 | 541 |
+| 30d | 2026-10-06 | 0 | 17 | 34 | 1 | 10 | 20 |
+| last60d | 2026-09-06 | 1 | 37 | 44 | 3 | 12 | 50 |
+| 90d | 2026-08-07 | 3 | 53 | 54 | 10 | 17 | 68 |
+| last180d | 2026-05-09 | 4 | 106 | 71 | 20 | 25 | 142 |
+| 360d | 2025-11-10 | 13 | 191 | 78 | 63 | 50 | 325 |
+| last720d | 2024-11-15 | 23 | 260 | 79 | 141 | 109 | 542 |
 
 ## Release assets
 
@@ -154,4 +154,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:03:38Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:31:12Z._
