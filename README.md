@@ -14,25 +14,25 @@ x install yq
 
 ## Code insight
 
-Total: **42,936** lines of code across **347** files in the top 5 languages.
+Total: **43,075** lines of code across **347** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 39,752 | 1,385 | 4,746 | 274 |
-| Sh | 2,813 | 300 | 698 | 40 |
+| Go | 39,890 | 1,388 | 4,751 | 274 |
+| Sh | 2,814 | 299 | 698 | 40 |
 | Yaml | 169 | 11 | 9 | 30 |
 | Makefile | 90 | 9 | 25 | 1 |
 | Toml | 33 | 1 | 12 | 2 |
 
 ## OpenSSF Scorecard
 
-Overall score: **7.5 / 10**
+Overall score: **7.6 / 10**
 
 Lowest-scoring checks:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Fuzzing** (0/10) — project is not fuzzed
 
 ## Source
 
@@ -42,107 +42,107 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v4.54.1` (2026-09-29)
-- **Last commit**: 2026-11-05
+- **Latest**: `v4.54.2` (2026-11-06)
+- **Last commit**: 2026-11-06
 - **Assets in release**: 59
 
 ## Popularity
 
-- **Stars**: 16,229 · **Forks**: 2,079 · **Open issues**: 1,628 · **Contributors**: 166
+- **Stars**: 16,229 · **Forks**: 2,074 · **Open issues**: 1,628 · **Contributors**: 167
 
 ## Totals (cumulative)
 
-- **Releases**: 170 · **Merged PRs**: 579 · **Open PRs**: 79 · **Closed issues**: 1379 · **Open issues**: 249 · **Commits**: 2359
+- **Releases**: 171 · **Merged PRs**: 589 · **Open PRs**: 72 · **Closed issues**: 1380 · **Open issues**: 248 · **Commits**: 2371
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 0 | 17 | 34 | 1 | 10 | 20 |
-| last60d | 2026-09-06 | 1 | 37 | 44 | 3 | 12 | 50 |
-| 90d | 2026-08-07 | 3 | 53 | 54 | 10 | 17 | 68 |
-| last180d | 2026-05-09 | 4 | 106 | 71 | 20 | 25 | 142 |
-| 360d | 2025-11-10 | 13 | 191 | 78 | 63 | 50 | 325 |
-| last720d | 2024-11-15 | 23 | 260 | 79 | 141 | 109 | 542 |
+| 30d | 2026-10-07 | 1 | 26 | 28 | 1 | 10 | 32 |
+| last60d | 2026-09-07 | 2 | 46 | 38 | 3 | 12 | 62 |
+| 90d | 2026-08-08 | 4 | 63 | 47 | 9 | 17 | 80 |
+| last180d | 2026-05-10 | 5 | 115 | 64 | 20 | 25 | 154 |
+| 360d | 2025-11-11 | 14 | 201 | 71 | 63 | 50 | 337 |
+| last720d | 2024-11-16 | 24 | 270 | 72 | 141 | 109 | 554 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [checksums](https://github.com/mikefarah/yq/releases/download/v4.54.1/checksums) | 108.1 KiB | `other` |
-| [checksums-bsd](https://github.com/mikefarah/yq/releases/download/v4.54.1/checksums-bsd) | 158.6 KiB | `other` |
-| [checksums-bsd.bundle](https://github.com/mikefarah/yq/releases/download/v4.54.1/checksums-bsd.bundle) | 10.0 KiB | `other` |
-| [checksums.bundle](https://github.com/mikefarah/yq/releases/download/v4.54.1/checksums.bundle) | 10.0 KiB | `other` |
-| [checksums_hashes_order](https://github.com/mikefarah/yq/releases/download/v4.54.1/checksums_hashes_order) | 252 B | `other` |
-| [extract-checksum.sh](https://github.com/mikefarah/yq/releases/download/v4.54.1/extract-checksum.sh) | 1.8 KiB | `other` |
-| [yq_darwin_amd64](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_darwin_amd64) | 13.7 MiB | `native/darwin/x64` |
-| [yq_darwin_amd64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_darwin_amd64.tar.gz) | 5.5 MiB | `native/darwin/x64` |
-| [yq_darwin_arm64](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_darwin_arm64) | 12.8 MiB | `native/darwin/arm64` |
-| [yq_darwin_arm64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_darwin_arm64.tar.gz) | 5.1 MiB | `native/darwin/arm64` |
-| [yq_freebsd_386](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_freebsd_386) | 13.1 MiB | `other` |
-| [yq_freebsd_386.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_freebsd_386.tar.gz) | 5.3 MiB | `native/unknown` |
-| [yq_freebsd_amd64](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_freebsd_amd64) | 13.4 MiB | `other` |
-| [yq_freebsd_amd64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_freebsd_amd64.tar.gz) | 5.4 MiB | `native/linux/x64` |
-| [yq_freebsd_arm](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_freebsd_arm) | 13.4 MiB | `other` |
-| [yq_freebsd_arm.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_freebsd_arm.tar.gz) | 5.3 MiB | `native/linux/arm` |
-| [yq_linux_386](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_386) | 13.2 MiB | `other` |
-| [yq_linux_386.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_386.tar.gz) | 5.3 MiB | `native/unknown` |
-| [yq_linux_amd64](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_amd64) | 13.5 MiB | `native/linux/x64` |
-| [yq_linux_amd64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_amd64.tar.gz) | 5.5 MiB | `native/linux/x64` |
-| [yq_linux_arm](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_arm) | 13.5 MiB | `native/linux/arm` |
-| [yq_linux_arm.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_arm.tar.gz) | 5.3 MiB | `native/linux/arm` |
-| [yq_linux_arm64](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_arm64) | 12.6 MiB | `native/linux/arm64` |
-| [yq_linux_arm64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_arm64.tar.gz) | 4.9 MiB | `native/linux/arm64` |
-| [yq_linux_loong64](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_loong64) | 13.6 MiB | `other` |
-| [yq_linux_loong64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_loong64.tar.gz) | 5.2 MiB | `native/unknown` |
-| [yq_linux_mips](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mips) | 15.0 MiB | `other` |
-| [yq_linux_mips.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mips.tar.gz) | 5.1 MiB | `native/unknown` |
-| [yq_linux_mips64](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mips64) | 15.1 MiB | `other` |
-| [yq_linux_mips64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mips64.tar.gz) | 4.9 MiB | `native/unknown` |
-| [yq_linux_mips64le](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mips64le) | 15.1 MiB | `other` |
-| [yq_linux_mips64le.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mips64le.tar.gz) | 4.8 MiB | `native/unknown` |
-| [yq_linux_mipsle](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mipsle) | 14.9 MiB | `other` |
-| [yq_linux_mipsle.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_mipsle.tar.gz) | 5.0 MiB | `native/unknown` |
-| [yq_linux_ppc64](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_ppc64) | 13.3 MiB | `other` |
-| [yq_linux_ppc64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_ppc64.tar.gz) | 5.0 MiB | `native/unknown` |
-| [yq_linux_ppc64le](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_ppc64le) | 13.3 MiB | `other` |
-| [yq_linux_ppc64le.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_ppc64le.tar.gz) | 5.0 MiB | `native/unknown` |
-| [yq_linux_riscv64](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_riscv64) | 12.1 MiB | `native/linux/riscv64` |
-| [yq_linux_riscv64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_riscv64.tar.gz) | 5.2 MiB | `native/linux/riscv64` |
-| [yq_linux_s390x](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_s390x) | 14.0 MiB | `other` |
-| [yq_linux_s390x.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_s390x.tar.gz) | 5.4 MiB | `native/unknown` |
-| [yq_man_page_only.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_man_page_only.tar.gz) | 48.7 KiB | `native/unknown` |
-| [yq_netbsd_386](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_netbsd_386) | 13.0 MiB | `other` |
-| [yq_netbsd_386.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_netbsd_386.tar.gz) | 5.3 MiB | `native/unknown` |
-| [yq_netbsd_amd64](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_netbsd_amd64) | 13.4 MiB | `other` |
-| [yq_netbsd_amd64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_netbsd_amd64.tar.gz) | 5.4 MiB | `native/linux/x64` |
-| [yq_netbsd_arm](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_netbsd_arm) | 13.4 MiB | `other` |
-| [yq_netbsd_arm.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_netbsd_arm.tar.gz) | 5.3 MiB | `native/linux/arm` |
-| [yq_openbsd_386](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_openbsd_386) | 13.1 MiB | `other` |
-| [yq_openbsd_386.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_openbsd_386.tar.gz) | 5.3 MiB | `native/unknown` |
-| [yq_openbsd_amd64](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_openbsd_amd64) | 13.5 MiB | `other` |
-| [yq_openbsd_amd64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_openbsd_amd64.tar.gz) | 5.4 MiB | `native/linux/x64` |
-| [yq_windows_386.exe](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_windows_386.exe) | 13.7 MiB | `native/win/x64` |
-| [yq_windows_386.zip](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_windows_386.zip) | 5.5 MiB | `native/win/x64` |
-| [yq_windows_amd64.exe](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_windows_amd64.exe) | 13.9 MiB | `native/win/x64` |
-| [yq_windows_amd64.zip](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_windows_amd64.zip) | 5.6 MiB | `native/win/x64` |
-| [yq_windows_arm64.exe](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_windows_arm64.exe) | 12.7 MiB | `native/win/arm64` |
-| [yq_windows_arm64.zip](https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_windows_arm64.zip) | 4.9 MiB | `native/win/arm64` |
+| [checksums](https://github.com/mikefarah/yq/releases/download/v4.54.2/checksums) | 108.1 KiB | `other` |
+| [checksums-bsd](https://github.com/mikefarah/yq/releases/download/v4.54.2/checksums-bsd) | 158.6 KiB | `other` |
+| [checksums-bsd.bundle](https://github.com/mikefarah/yq/releases/download/v4.54.2/checksums-bsd.bundle) | 9.9 KiB | `other` |
+| [checksums.bundle](https://github.com/mikefarah/yq/releases/download/v4.54.2/checksums.bundle) | 9.7 KiB | `other` |
+| [checksums_hashes_order](https://github.com/mikefarah/yq/releases/download/v4.54.2/checksums_hashes_order) | 252 B | `other` |
+| [extract-checksum.sh](https://github.com/mikefarah/yq/releases/download/v4.54.2/extract-checksum.sh) | 1.8 KiB | `other` |
+| [yq_darwin_amd64](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_darwin_amd64) | 15.0 MiB | `native/darwin/x64` |
+| [yq_darwin_amd64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_darwin_amd64.tar.gz) | 6.1 MiB | `native/darwin/x64` |
+| [yq_darwin_arm64](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_darwin_arm64) | 13.9 MiB | `native/darwin/arm64` |
+| [yq_darwin_arm64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_darwin_arm64.tar.gz) | 5.5 MiB | `native/darwin/arm64` |
+| [yq_freebsd_386](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_freebsd_386) | 14.2 MiB | `other` |
+| [yq_freebsd_386.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_freebsd_386.tar.gz) | 5.8 MiB | `native/unknown` |
+| [yq_freebsd_amd64](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_freebsd_amd64) | 14.7 MiB | `other` |
+| [yq_freebsd_amd64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_freebsd_amd64.tar.gz) | 6.0 MiB | `native/linux/x64` |
+| [yq_freebsd_arm](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_freebsd_arm) | 14.4 MiB | `other` |
+| [yq_freebsd_arm.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_freebsd_arm.tar.gz) | 5.8 MiB | `native/linux/arm` |
+| [yq_linux_386](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_386) | 14.4 MiB | `other` |
+| [yq_linux_386.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_386.tar.gz) | 5.9 MiB | `native/unknown` |
+| [yq_linux_amd64](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_amd64) | 14.7 MiB | `native/linux/x64` |
+| [yq_linux_amd64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_amd64.tar.gz) | 6.0 MiB | `native/linux/x64` |
+| [yq_linux_arm](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_arm) | 14.6 MiB | `native/linux/arm` |
+| [yq_linux_arm.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_arm.tar.gz) | 5.8 MiB | `native/linux/arm` |
+| [yq_linux_arm64](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_arm64) | 13.6 MiB | `native/linux/arm64` |
+| [yq_linux_arm64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_arm64.tar.gz) | 5.4 MiB | `native/linux/arm64` |
+| [yq_linux_loong64](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_loong64) | 14.5 MiB | `other` |
+| [yq_linux_loong64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_loong64.tar.gz) | 5.7 MiB | `native/unknown` |
+| [yq_linux_mips](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_mips) | 16.3 MiB | `other` |
+| [yq_linux_mips.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_mips.tar.gz) | 5.6 MiB | `native/unknown` |
+| [yq_linux_mips64](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_mips64) | 16.4 MiB | `other` |
+| [yq_linux_mips64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_mips64.tar.gz) | 5.4 MiB | `native/unknown` |
+| [yq_linux_mips64le](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_mips64le) | 16.4 MiB | `other` |
+| [yq_linux_mips64le.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_mips64le.tar.gz) | 5.3 MiB | `native/unknown` |
+| [yq_linux_mipsle](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_mipsle) | 16.3 MiB | `other` |
+| [yq_linux_mipsle.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_mipsle.tar.gz) | 5.5 MiB | `native/unknown` |
+| [yq_linux_ppc64](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_ppc64) | 14.4 MiB | `other` |
+| [yq_linux_ppc64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_ppc64.tar.gz) | 5.5 MiB | `native/unknown` |
+| [yq_linux_ppc64le](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_ppc64le) | 14.4 MiB | `other` |
+| [yq_linux_ppc64le.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_ppc64le.tar.gz) | 5.5 MiB | `native/unknown` |
+| [yq_linux_riscv64](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_riscv64) | 13.0 MiB | `native/linux/riscv64` |
+| [yq_linux_riscv64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_riscv64.tar.gz) | 5.6 MiB | `native/linux/riscv64` |
+| [yq_linux_s390x](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_s390x) | 15.3 MiB | `other` |
+| [yq_linux_s390x.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_s390x.tar.gz) | 5.9 MiB | `native/unknown` |
+| [yq_man_page_only.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_man_page_only.tar.gz) | 49.6 KiB | `native/unknown` |
+| [yq_netbsd_386](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_netbsd_386) | 14.2 MiB | `other` |
+| [yq_netbsd_386.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_netbsd_386.tar.gz) | 5.8 MiB | `native/unknown` |
+| [yq_netbsd_amd64](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_netbsd_amd64) | 14.6 MiB | `other` |
+| [yq_netbsd_amd64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_netbsd_amd64.tar.gz) | 6.0 MiB | `native/linux/x64` |
+| [yq_netbsd_arm](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_netbsd_arm) | 14.4 MiB | `other` |
+| [yq_netbsd_arm.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_netbsd_arm.tar.gz) | 5.8 MiB | `native/linux/arm` |
+| [yq_openbsd_386](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_openbsd_386) | 14.2 MiB | `other` |
+| [yq_openbsd_386.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_openbsd_386.tar.gz) | 5.8 MiB | `native/unknown` |
+| [yq_openbsd_amd64](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_openbsd_amd64) | 14.7 MiB | `other` |
+| [yq_openbsd_amd64.tar.gz](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_openbsd_amd64.tar.gz) | 6.0 MiB | `native/linux/x64` |
+| [yq_windows_386.exe](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_windows_386.exe) | 14.9 MiB | `native/win/x64` |
+| [yq_windows_386.zip](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_windows_386.zip) | 6.1 MiB | `native/win/x64` |
+| [yq_windows_amd64.exe](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_windows_amd64.exe) | 15.2 MiB | `native/win/x64` |
+| [yq_windows_amd64.zip](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_windows_amd64.zip) | 6.1 MiB | `native/win/x64` |
+| [yq_windows_arm64.exe](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_windows_arm64.exe) | 13.8 MiB | `native/win/arm64` |
+| [yq_windows_arm64.zip](https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_windows_arm64.zip) | 5.4 MiB | `native/win/arm64` |
 
 ## Distribution status
 
-Reported by **176** distros on [repology.org](https://repology.org/project/yq). **36** are ✅ on the latest upstream release, **66** are ⚠️ on an older version.
+Reported by **177** distros on [repology.org](https://repology.org/project/yq). **4** are ✅ on the latest upstream release, **98** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `4.54.1` | ✅ latest |
-| Debian 14 | `4.54.1` | ✅ latest |
-| Arch | `4.54.1` | ✅ latest |
-| Homebrew | `4.54.1` | ✅ latest |
+| Debian unstable | `4.54.1` | ⚠️ outdated |
+| Debian 14 | `4.54.1` | ⚠️ outdated |
+| Arch | `4.54.1` | ⚠️ outdated |
+| Homebrew | `4.54.2` | ✅ latest |
 | Fedora rawhide | `4.53.3` | ⚠️ outdated |
-| Nix unstable | `4.54.1` | ✅ latest |
-| Void | `4.54.1` | ✅ latest |
-| Alpine edge | `4.54.1` | ✅ latest |
+| Nix unstable | `4.54.1` | ⚠️ outdated |
+| Void | `4.54.1` | ⚠️ outdated |
+| Alpine edge | `4.54.1` | ⚠️ outdated |
 | openSUSE Tumbleweed | `4.53.3` | ⚠️ outdated |
 
 ## Improve this data
@@ -154,4 +154,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T07:31:12Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T07:25:50Z._
