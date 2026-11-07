@@ -2,57 +2,11 @@
   subrepo: terminal
   binname: yq
   visiblename: yq
-  version: 4.47.1
-  origversion: 4.47.1-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: yq
-  visiblename: yq
   version: 4.46.1
   origversion: 4.46.1-2~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
-- repo: alpine_3_20
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go
-  visiblename: yq-go
-  version: 4.44.1
-  origversion: 4.44.1-r2
-  status: outdated
-  summary: Portable command-line YAML processor written in Go
-  maintainers:
-    - tmhoang@linux.ibm.com
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-bash-completion
-  visiblename: yq-go-bash-completion
-  version: 4.44.1
-  origversion: 4.44.1-r2
-  status: outdated
-  summary: Bash completions for yq-go
-  maintainers:
-    - tmhoang@linux.ibm.com
-  licenses:
-    - MIT
-- repo: stalix
-  srcname: bin/yq
-  binname: bin/yq
-  visiblename: bin/yq
-  version: 4.54.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: wakemeops
   subrepo: terminal
   binname: yq
@@ -62,12 +16,36 @@
   status: legacy
   maintainers:
     - ops2deb@upciti.com
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: yq
+  visiblename: yq
+  version: 4.35.2
+  origversion: 4.35.2-150500.3.3.1
+  status: outdated
+  summary: A portable command-line YAML processor
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: yq
+  visiblename: yq
+  version: 4.30.8
+  origversion: 4.30.8-150500.1.8
+  status: legacy
+  summary: A portable command-line YAML processor
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: aerynos
   srcname: yq
   visiblename: yq
-  version: 4.54.1
+  version: 4.54.2
   origversion: null
-  status: outdated
+  status: newest
   summary: yq is a lightweight command-line YAML processor
   licenses:
     - MIT
@@ -227,6 +205,43 @@
     - tmhoang@linux.ibm.com
   licenses:
     - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go
+  visiblename: yq-go
+  version: 4.44.1
+  origversion: 4.44.1-r2
+  status: outdated
+  summary: Portable command-line YAML processor written in Go
+  maintainers:
+    - tmhoang@linux.ibm.com
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-bash-completion
+  visiblename: yq-go-bash-completion
+  version: 4.44.1
+  origversion: 4.44.1-r2
+  status: outdated
+  summary: Bash completions for yq-go
+  maintainers:
+    - tmhoang@linux.ibm.com
+  licenses:
+    - MIT
+- repo: stalix
+  srcname: bin/yq
+  binname: bin/yq
+  visiblename: bin/yq
+  version: 4.54.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: alpine_3_20
   subrepo: community
   srcname: yq-go
@@ -491,20 +506,20 @@
   srcname: bin/yq
   binname: bin/yq
   visiblename: bin/yq
-  version: 4.54.1
+  version: 4.54.2
   origversion: null
-  status: outdated
+  status: newest
   maintainers:
     - anton@samokhvalov.xyz
   categories:
     - bin
 - repo: opensuse_leap_15_5
-  subrepo: main/oss
+  subrepo: updates/sle
   srcname: yq
   visiblename: yq
-  version: 4.30.8
-  origversion: 4.30.8-150500.1.8
-  status: legacy
+  version: 4.35.2
+  origversion: 4.35.2-150500.3.3.1
+  status: outdated
   summary: A portable command-line YAML processor
   licenses:
     - MIT
@@ -722,7 +737,7 @@
     - yq-go
   visiblename: yq-go
   version: 4.54.1
-  origversion: 4.54.1+ds-1
+  origversion: 4.54.1+ds-2
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
@@ -736,7 +751,7 @@
     - yq-go
   visiblename: yq-go
   version: 4.54.1
-  origversion: 4.54.1+ds-1
+  origversion: 4.54.1+ds-2
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
@@ -805,16 +820,20 @@
     - MIT
   categories:
     - Unspecified
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
+- repo: fedora_41
+  subrepo: updates
   srcname: yq
+  binnames:
+    - yq
+    - yq-debuginfo
+    - yq-debugsource
   visiblename: yq
-  version: 4.35.2
-  origversion: 4.35.2-150500.3.3.1
+  version: 4.47.1
+  origversion: 4.47.1-2.fc41
   status: outdated
-  summary: A portable command-line YAML processor
+  summary: Yq is a portable command-line YAML, JSON, XML, CSV, TOML  and properties processor
   licenses:
-    - MIT
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT
   categories:
     - Unspecified
 - repo: fedora_41
@@ -833,20 +852,20 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_41
-  subrepo: updates
+- repo: fedora_42
+  subrepo: release
   srcname: yq
   binnames:
     - yq
     - yq-debuginfo
     - yq-debugsource
   visiblename: yq
-  version: 4.47.1
-  origversion: 4.47.1-2.fc41
-  status: outdated
+  version: 4.43.1
+  origversion: 4.43.1-5.fc42
+  status: legacy
   summary: Yq is a portable command-line YAML, JSON, XML, CSV, TOML  and properties processor
   licenses:
-    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT
+    - MIT
   categories:
     - Unspecified
 - repo: fedora_42
@@ -863,22 +882,6 @@
   summary: Yq is a portable command-line YAML, JSON, XML, CSV, TOML  and properties processor
   licenses:
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
-  subrepo: release
-  srcname: yq
-  binnames:
-    - yq
-    - yq-debuginfo
-    - yq-debugsource
-  visiblename: yq
-  version: 4.43.1
-  origversion: 4.43.1-5.fc42
-  status: legacy
-  summary: Yq is a portable command-line YAML, JSON, XML, CSV, TOML  and properties processor
-  licenses:
-    - MIT
   categories:
     - Unspecified
 - repo: fedora_43
@@ -1253,8 +1256,8 @@
   srcname: go-yq
   binname: go-yq
   visiblename: go-yq
-  version: 4.35.1
-  origversion: 4.35.1-1
+  version: 4.54.1
+  origversion: 4.54.1-1
   status: outdated
   summary: Portable command-line YAML processor
   licenses:
@@ -1264,8 +1267,8 @@
   srcname: go-yq
   binname: go-yq
   visiblename: go-yq
-  version: 4.35.1
-  origversion: 4.35.1-1
+  version: 4.54.1
+  origversion: 4.54.1-1
   status: outdated
   summary: Portable command-line YAML processor
   licenses:
@@ -1387,29 +1390,15 @@
     - sandro.jaeckel@gmail.com
   licenses:
     - MIT
-- repo: openpkg_current
-  srcname: yq
+- repo: wakemeops
+  subrepo: terminal
+  binname: yq
   visiblename: yq
-  version: 4.50.1.20251214
-  origversion: null
-  status: outdated
-  summary: Go YAML Tool
-  licenses:
-    - MIT
-  categories:
-    - Text
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: yq
-  visiblename: yq
-  version: 4.35.2
-  origversion: 4.35.2-150500.3.3.1
-  status: outdated
-  summary: A portable command-line YAML processor
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
+  version: 4.47.1
+  origversion: 4.47.1-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: yq
@@ -1526,9 +1515,9 @@
 - repo: t2
   srcname: yq
   visiblename: yq
-  version: 4.54.1
+  version: 4.54.2
   origversion: null
-  status: outdated
+  status: newest
   summary: A cli for YAML, JSON, XML, CSV, TOML and properties processor
   maintainers:
     - rene@exactco.de
@@ -1540,14 +1529,28 @@
   srcname: yq
   binname: yq
   visiblename: yq
-  version: 4.54.1
+  version: 4.54.2
   origversion: null
-  status: outdated
+  status: newest
   summary: A lightweight and portable command-line YAML, JSON and XML processor
   maintainers:
     - termux@github
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: yq-go
+  binnames:
+    - yq-go
+  visiblename: yq-go
+  version: 4.53.3
+  origversion: 4.53.3+ds-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - chrism@debian.org
+  categories:
+    - universe/utils
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: yq-go
   binnames:
     - yq-go
