@@ -14,11 +14,11 @@ x install yq
 
 ## Code insight
 
-Total: **43,075** lines of code across **347** files in the top 5 languages.
+Total: **43,116** lines of code across **347** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 39,890 | 1,388 | 4,751 | 274 |
+| Go | 39,931 | 1,388 | 4,752 | 274 |
 | Sh | 2,814 | 299 | 698 | 40 |
 | Yaml | 169 | 11 | 9 | 30 |
 | Makefile | 90 | 9 | 25 | 1 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,229 · **Forks**: 2,074 · **Open issues**: 1,628 · **Contributors**: 167
+- **Stars**: 16,233 · **Forks**: 2,070 · **Open issues**: 1,630 · **Contributors**: 168
 
 ## Totals (cumulative)
 
-- **Releases**: 171 · **Merged PRs**: 589 · **Open PRs**: 72 · **Closed issues**: 1380 · **Open issues**: 248 · **Commits**: 2371
+- **Releases**: 171 · **Merged PRs**: 590 · **Open PRs**: 73 · **Closed issues**: 1381 · **Open issues**: 249 · **Commits**: 2372
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 1 | 26 | 28 | 1 | 10 | 32 |
-| last60d | 2026-09-07 | 2 | 46 | 38 | 3 | 12 | 62 |
-| 90d | 2026-08-08 | 4 | 63 | 47 | 9 | 17 | 80 |
-| last180d | 2026-05-10 | 5 | 115 | 64 | 20 | 25 | 154 |
-| 360d | 2025-11-11 | 14 | 201 | 71 | 63 | 50 | 337 |
-| last720d | 2024-11-16 | 24 | 270 | 72 | 141 | 109 | 554 |
+| 30d | 2026-10-08 | 1 | 22 | 29 | 2 | 11 | 33 |
+| last60d | 2026-09-08 | 2 | 47 | 39 | 4 | 13 | 63 |
+| 90d | 2026-08-09 | 4 | 64 | 48 | 10 | 18 | 81 |
+| last180d | 2026-05-11 | 5 | 115 | 65 | 20 | 25 | 155 |
+| 360d | 2025-11-12 | 14 | 202 | 72 | 63 | 51 | 338 |
+| last720d | 2024-11-17 | 23 | 271 | 73 | 142 | 110 | 527 |
 
 ## Release assets
 
@@ -131,7 +131,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **177** distros on [repology.org](https://repology.org/project/yq). **4** are ✅ on the latest upstream release, **98** are ⚠️ on an older version.
+Reported by **177** distros on [repology.org](https://repology.org/project/yq). **8** are ✅ on the latest upstream release, **94** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -154,4 +154,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:25:50Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:50:08Z._
