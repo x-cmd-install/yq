@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,288 · **Forks**: 1,296 · **Open issues**: 1,633 · **Contributors**: 168
+- **Stars**: 16,291 · **Forks**: 1,313 · **Open issues**: 1,635 · **Contributors**: 168
 
 ## Totals (cumulative)
 
-- **Releases**: 172 · **Merged PRs**: 592 · **Open PRs**: 82 · **Closed issues**: 1383 · **Open issues**: 250 · **Commits**: 2376
+- **Releases**: 172 · **Merged PRs**: 592 · **Open PRs**: 82 · **Closed issues**: 1383 · **Open issues**: 252 · **Commits**: 2376
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 2 | 16 | 31 | 4 | 10 | 33 |
-| last60d | 2026-09-15 | 3 | 46 | 45 | 4 | 14 | 62 |
-| 90d | 2026-08-16 | 5 | 64 | 54 | 11 | 19 | 85 |
-| last180d | 2026-05-18 | 6 | 113 | 74 | 21 | 25 | 150 |
-| 360d | 2025-11-19 | 14 | 202 | 81 | 64 | 51 | 334 |
-| last720d | 2024-11-24 | 24 | 273 | 82 | 143 | 110 | 531 |
+| 30d | 2026-10-16 | 2 | 16 | 31 | 4 | 11 | 33 |
+| last60d | 2026-09-16 | 3 | 46 | 45 | 4 | 16 | 62 |
+| 90d | 2026-08-17 | 5 | 64 | 53 | 11 | 21 | 85 |
+| last180d | 2026-05-19 | 6 | 113 | 74 | 21 | 26 | 150 |
+| 360d | 2025-11-20 | 14 | 202 | 81 | 64 | 53 | 334 |
+| last720d | 2024-11-25 | 24 | 273 | 82 | 143 | 111 | 531 |
 
 ## Release assets
 
@@ -131,7 +131,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **179** distros on [repology.org](https://repology.org/project/yq). **11** are ✅ on the latest upstream release, **92** are ⚠️ on an older version.
+Reported by **179** distros on [repology.org](https://repology.org/project/yq). **17** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -154,4 +154,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T07:28:03Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T07:30:03Z._
