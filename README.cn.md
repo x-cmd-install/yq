@@ -32,7 +32,7 @@ x install yq
 
 - **Code-Review** (3/10) — Found 7/18 approved changesets -- score normalized to 3
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Fuzzing** (0/10) — project is not fuzzed
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install yq
 
 ## 流行度
 
-- **Star**: 16,293 · **Fork**: 1,391 · **开放 issue**: 1,635 · **贡献者**: 168
+- **Star**: 16,298 · **Fork**: 1,447 · **开放 issue**: 1,638 · **贡献者**: 168
 
 ## 累计统计
 
-- **发布数**: 172 · **已合并 PR**: 592 · **开放 PR**: 82 · **已关闭 issue**: 1383 · **开放 issue**: 252 · **提交数**: 2376
+- **发布数**: 172 · **已合并 PR**: 592 · **开放 PR**: 83 · **已关闭 issue**: 1383 · **开放 issue**: 255 · **提交数**: 2376
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 2 | 16 | 27 | 4 | 8 | 25 |
-| last60d | 2026-09-17 | 3 | 42 | 45 | 4 | 16 | 60 |
-| 90d | 2026-08-18 | 5 | 64 | 52 | 10 | 19 | 68 |
-| last180d | 2026-05-20 | 6 | 113 | 73 | 21 | 26 | 150 |
-| 360d | 2025-11-21 | 14 | 202 | 81 | 64 | 53 | 320 |
-| last720d | 2024-11-26 | 24 | 273 | 82 | 143 | 111 | 531 |
+| 30d | 2026-10-18 | 2 | 16 | 28 | 4 | 11 | 25 |
+| last60d | 2026-09-18 | 3 | 41 | 46 | 4 | 19 | 60 |
+| 90d | 2026-08-19 | 5 | 62 | 53 | 7 | 22 | 68 |
+| last180d | 2026-05-21 | 6 | 113 | 73 | 20 | 29 | 150 |
+| 360d | 2025-11-22 | 14 | 202 | 82 | 64 | 56 | 320 |
+| last720d | 2024-11-27 | 24 | 273 | 83 | 143 | 114 | 531 |
 
 ## Release 资产
 
@@ -131,7 +131,7 @@ x install yq
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/yq) 上共有 **178** 个发行版报告此项目。**18** 个 ✅ 已是最新上游版本，**84** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/yq) 上共有 **179** 个发行版报告此项目。**21** 个 ✅ 已是最新上游版本，**82** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -154,4 +154,4 @@ yq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T07:43:05Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T08:37:18Z._

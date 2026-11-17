@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **Code-Review** (3/10) — Found 7/18 approved changesets -- score normalized to 3
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Fuzzing** (0/10) — project is not fuzzed
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,293 · **Forks**: 1,391 · **Open issues**: 1,635 · **Contributors**: 168
+- **Stars**: 16,298 · **Forks**: 1,447 · **Open issues**: 1,638 · **Contributors**: 168
 
 ## Totals (cumulative)
 
-- **Releases**: 172 · **Merged PRs**: 592 · **Open PRs**: 82 · **Closed issues**: 1383 · **Open issues**: 252 · **Commits**: 2376
+- **Releases**: 172 · **Merged PRs**: 592 · **Open PRs**: 83 · **Closed issues**: 1383 · **Open issues**: 255 · **Commits**: 2376
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 2 | 16 | 27 | 4 | 8 | 25 |
-| last60d | 2026-09-17 | 3 | 42 | 45 | 4 | 16 | 60 |
-| 90d | 2026-08-18 | 5 | 64 | 52 | 10 | 19 | 68 |
-| last180d | 2026-05-20 | 6 | 113 | 73 | 21 | 26 | 150 |
-| 360d | 2025-11-21 | 14 | 202 | 81 | 64 | 53 | 320 |
-| last720d | 2024-11-26 | 24 | 273 | 82 | 143 | 111 | 531 |
+| 30d | 2026-10-18 | 2 | 16 | 28 | 4 | 11 | 25 |
+| last60d | 2026-09-18 | 3 | 41 | 46 | 4 | 19 | 60 |
+| 90d | 2026-08-19 | 5 | 62 | 53 | 7 | 22 | 68 |
+| last180d | 2026-05-21 | 6 | 113 | 73 | 20 | 29 | 150 |
+| 360d | 2025-11-22 | 14 | 202 | 82 | 64 | 56 | 320 |
+| last720d | 2024-11-27 | 24 | 273 | 83 | 143 | 114 | 531 |
 
 ## Release assets
 
@@ -131,7 +131,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **178** distros on [repology.org](https://repology.org/project/yq). **18** are ✅ on the latest upstream release, **84** are ⚠️ on an older version.
+Reported by **179** distros on [repology.org](https://repology.org/project/yq). **21** are ✅ on the latest upstream release, **82** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -154,4 +154,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T07:43:04Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T08:37:17Z._
