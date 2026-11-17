@@ -1,9 +1,23 @@
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: yq-go
+  binnames:
+    - yq-go
+  visiblename: yq-go
+  version: 4.54.1
+  origversion: 4.54.1+ds-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - chrism@debian.org
+  categories:
+    - utils
 - repo: wakemeops
   subrepo: terminal
   binname: yq
   visiblename: yq
-  version: 4.40.3
-  origversion: 4.40.3-1~ops2deb
+  version: 4.54.1
+  origversion: 4.54.1-2~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -11,17 +25,8 @@
   subrepo: terminal
   binname: yq
   visiblename: yq
-  version: 4.40.2
-  origversion: 4.40.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: yq
-  visiblename: yq
-  version: 4.35.2
-  origversion: 4.35.2-1~ops2deb
+  version: 4.53.6
+  origversion: 4.53.6-2~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -112,15 +117,6 @@
     - tmhoang@linux.ibm.com
   licenses:
     - MIT
-- repo: wakemeops
-  subrepo: terminal
-  binname: yq
-  visiblename: yq
-  version: 4.35.1
-  origversion: 4.35.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: alpine_3_18
   subrepo: community
   srcname: yq
@@ -225,6 +221,17 @@
     - tmhoang@linux.ibm.com
   licenses:
     - MIT
+- repo: stalix
+  srcname: bin/yq
+  binname: bin/yq
+  visiblename: bin/yq
+  version: 4.54.3
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: alpine_3_20
   subrepo: community
   srcname: yq-go
@@ -483,6 +490,19 @@
   summary: Bash completions for yq-go
   maintainers:
     - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: yq-go
+  visiblename: yq-go
+  version: 4.45.4
+  origversion: null
+  status: outdated
+  summary: Portable command-line YAML processor
+  maintainers:
+    - lewo@abesis.fr
+    - prc.zhao@outlook.com
+    - sandro.jaeckel@gmail.com
   licenses:
     - MIT
 - repo: alpine_edge
@@ -644,6 +664,19 @@
   summary: Command-line YAML processor (manual pages)
   licenses:
     - MIT
+- repo: nix_stable_25_11
+  srcname: yq-go
+  visiblename: yq-go
+  version: 4.50.1
+  origversion: null
+  status: outdated
+  summary: Portable command-line YAML processor
+  maintainers:
+    - lewo@abesis.fr
+    - prc.zhao@outlook.com
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - MIT
 - repo: chimera
   subrepo: user
   srcname: yq
@@ -692,20 +725,6 @@
     - utils
 - repo: debian_unstable
   subrepo: sid/main
-  srcname: yq-go
-  binnames:
-    - yq-go
-  visiblename: yq-go
-  version: 4.54.1
-  origversion: 4.54.1+ds-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - chrism@debian.org
-  categories:
-    - utils
-- repo: devuan_unstable
-  subrepo: unstable/main
   srcname: yq-go
   binnames:
     - yq-go
@@ -902,6 +921,22 @@
   visiblename: yq
   version: 4.53.3
   origversion: 4.53.3-1.fc44
+  status: outdated
+  summary: Yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND MPL-2.0 AND Unicode-3.0
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: yq
+  binnames:
+    - yq
+    - yq-debuginfo
+    - yq-debugsource
+  visiblename: yq
+  version: 4.53.3
+  origversion: 4.53.3-2.fc45
   status: outdated
   summary: Yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor
   licenses:
@@ -1248,9 +1283,9 @@
   srcname: mingw-w64-yq
   binname: mingw-w64-clang-x86_64-yq
   visiblename: mingw-w64-clang-x86_64-yq
-  version: 4.54.2
-  origversion: 4.54.2-1
-  status: outdated
+  version: 4.54.3
+  origversion: 4.54.3-1
+  status: newest
   summary: Portable command-line YAML, JSON, INI and XML processor (mingw-w64)
   licenses:
     - spdx:MIT
@@ -1258,9 +1293,9 @@
   srcname: mingw-w64-yq
   binname: mingw-w64-clang-aarch64-yq
   visiblename: mingw-w64-clang-aarch64-yq
-  version: 4.54.2
-  origversion: 4.54.2-1
-  status: outdated
+  version: 4.54.3
+  origversion: 4.54.3-1
+  status: newest
   summary: Portable command-line YAML, JSON, INI and XML processor (mingw-w64)
   licenses:
     - spdx:MIT
@@ -1268,9 +1303,9 @@
   srcname: mingw-w64-yq
   binname: mingw-w64-ucrt-x86_64-yq
   visiblename: mingw-w64-ucrt-x86_64-yq
-  version: 4.54.2
-  origversion: 4.54.2-1
-  status: outdated
+  version: 4.54.3
+  origversion: 4.54.3-1
+  status: newest
   summary: Portable command-line YAML, JSON, INI and XML processor (mingw-w64)
   licenses:
     - spdx:MIT
@@ -1295,32 +1330,6 @@
   summary: Portable command-line YAML processor
   maintainers:
     - lewo@abesis.fr
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: yq-go
-  visiblename: yq-go
-  version: 4.45.4
-  origversion: null
-  status: outdated
-  summary: Portable command-line YAML processor
-  maintainers:
-    - lewo@abesis.fr
-    - prc.zhao@outlook.com
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: yq-go
-  visiblename: yq-go
-  version: 4.50.1
-  origversion: null
-  status: outdated
-  summary: Portable command-line YAML processor
-  maintainers:
-    - lewo@abesis.fr
-    - prc.zhao@outlook.com
     - sandro.jaeckel@gmail.com
   licenses:
     - MIT
@@ -1442,15 +1451,6 @@
     - chrism@debian.org
   categories:
     - utils
-- repo: wakemeops
-  subrepo: terminal
-  binname: yq
-  visiblename: yq
-  version: 4.54.1
-  origversion: 4.54.1-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: scoop
   subrepo: main
   binname: yq
@@ -1508,17 +1508,6 @@
     - teaguesterling@spack
   licenses:
     - MIT
-- repo: stalix
-  srcname: bin/yq
-  binname: bin/yq
-  visiblename: bin/yq
-  version: 4.54.3
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: stalix_dev
   srcname: bin/yq
   binname: bin/yq
@@ -1609,15 +1598,6 @@
   visiblename: yq
   version: 4.54.2
   origversion: 4.54.2-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: yq
-  visiblename: yq
-  version: 4.53.6
-  origversion: 4.53.6-2~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -1870,6 +1850,42 @@
   visiblename: yq
   version: 4.40.4
   origversion: 4.40.4-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: yq
+  visiblename: yq
+  version: 4.40.3
+  origversion: 4.40.3-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: yq
+  visiblename: yq
+  version: 4.40.2
+  origversion: 4.40.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: yq
+  visiblename: yq
+  version: 4.35.2
+  origversion: 4.35.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: yq
+  visiblename: yq
+  version: 4.35.1
+  origversion: 4.35.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
