@@ -1,35 +1,35 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: yq-go
-  binnames:
-    - yq-go
-  visiblename: yq-go
-  version: 4.54.1
-  origversion: 4.54.1+ds-2
-  status: outdated
+- repo: stalix_dev
+  srcname: bin/yq
+  binname: bin/yq
+  visiblename: bin/yq
+  version: 4.54.3
+  origversion: null
+  status: newest
   maintainers:
-    - team+pkg-go@tracker.debian.org
-    - chrism@debian.org
+    - anton@samokhvalov.xyz
   categories:
-    - utils
+    - bin
 - repo: wakemeops
   subrepo: terminal
   binname: yq
   visiblename: yq
-  version: 4.54.1
-  origversion: 4.54.1-2~ops2deb
+  version: 4.43.1
+  origversion: 4.43.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
+- repo: aosc
+  srcname: app-devel/yq
   binname: yq
   visiblename: yq
-  version: 4.53.6
-  origversion: 4.53.6-2~ops2deb
-  status: legacy
+  version: 4.53.3
+  origversion: 4.53.3-2
+  status: outdated
+  summary: Command-line YAML, JSON, XML, CSV, TOML and properties processor
   maintainers:
-    - ops2deb@upciti.com
+    - fallback-mnt-aosc@repology
+  categories:
+    - devel
 - repo: aerynos
   srcname: yq
   visiblename: yq
@@ -52,6 +52,15 @@
     - tmhoang@linux.ibm.com
   licenses:
     - MIT
+- repo: wakemeops
+  subrepo: terminal
+  binname: yq
+  visiblename: yq
+  version: 4.42.1
+  origversion: 4.42.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: alpine_3_17
   subrepo: community
   srcname: yq
@@ -130,379 +139,400 @@
     - tmhoang@linux.ibm.com
   licenses:
     - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: yq
-  binname: yq-zsh-completion
-  visiblename: yq-zsh-completion
-  version: 4.33.3
-  origversion: 4.33.3-r5
-  status: outdated
-  summary: Zsh completions for yq
-  maintainers:
-    - tmhoang@linux.ibm.com
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: yq
-  binname: yq
-  visiblename: yq
-  version: 4.35.2
-  origversion: 4.35.2-r4
-  status: outdated
-  summary: Portable command-line YAML processor written in Go
-  maintainers:
-    - tmhoang@linux.ibm.com
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: yq
-  binname: yq-bash-completion
-  visiblename: yq-bash-completion
-  version: 4.35.2
-  origversion: 4.35.2-r4
-  status: outdated
-  summary: Bash completions for yq
-  maintainers:
-    - tmhoang@linux.ibm.com
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: yq
-  binname: yq-fish-completion
-  visiblename: yq-fish-completion
-  version: 4.35.2
-  origversion: 4.35.2-r4
-  status: outdated
-  summary: Fish completions for yq
-  maintainers:
-    - tmhoang@linux.ibm.com
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: yq
-  binname: yq-zsh-completion
-  visiblename: yq-zsh-completion
-  version: 4.35.2
-  origversion: 4.35.2-r4
-  status: outdated
-  summary: Zsh completions for yq
-  maintainers:
-    - tmhoang@linux.ibm.com
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go
-  visiblename: yq-go
-  version: 4.44.1
-  origversion: 4.44.1-r2
-  status: outdated
-  summary: Portable command-line YAML processor written in Go
-  maintainers:
-    - tmhoang@linux.ibm.com
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-bash-completion
-  visiblename: yq-go-bash-completion
-  version: 4.44.1
-  origversion: 4.44.1-r2
-  status: outdated
-  summary: Bash completions for yq-go
-  maintainers:
-    - tmhoang@linux.ibm.com
-  licenses:
-    - MIT
-- repo: stalix
-  srcname: bin/yq
-  binname: bin/yq
-  visiblename: bin/yq
-  version: 4.54.3
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: alpine_3_20
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-fish-completion
-  visiblename: yq-go-fish-completion
-  version: 4.44.1
-  origversion: 4.44.1-r2
-  status: outdated
-  summary: Fish completions for yq-go
-  maintainers:
-    - tmhoang@linux.ibm.com
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-zsh-completion
-  visiblename: yq-go-zsh-completion
-  version: 4.44.1
-  origversion: 4.44.1-r2
-  status: outdated
-  summary: Zsh completions for yq-go
-  maintainers:
-    - tmhoang@linux.ibm.com
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go
-  visiblename: yq-go
-  version: 4.44.5
-  origversion: 4.44.5-r5
-  status: outdated
-  summary: Portable command-line YAML processor written in Go
-  maintainers:
-    - tmhoang@linux.ibm.com
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-bash-completion
-  visiblename: yq-go-bash-completion
-  version: 4.44.5
-  origversion: 4.44.5-r5
-  status: outdated
-  summary: Bash completions for yq-go
-  maintainers:
-    - tmhoang@linux.ibm.com
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-fish-completion
-  visiblename: yq-go-fish-completion
-  version: 4.44.5
-  origversion: 4.44.5-r5
-  status: outdated
-  summary: Fish completions for yq-go
-  maintainers:
-    - tmhoang@linux.ibm.com
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-zsh-completion
-  visiblename: yq-go-zsh-completion
-  version: 4.44.5
-  origversion: 4.44.5-r5
-  status: outdated
-  summary: Zsh completions for yq-go
-  maintainers:
-    - tmhoang@linux.ibm.com
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go
-  visiblename: yq-go
-  version: 4.47.2
-  origversion: 4.47.2-r3
-  status: outdated
-  summary: Portable command-line YAML processor written in Go
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-bash-completion
-  visiblename: yq-go-bash-completion
-  version: 4.47.2
-  origversion: 4.47.2-r3
-  status: outdated
-  summary: Bash completions for yq-go
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-fish-completion
-  visiblename: yq-go-fish-completion
-  version: 4.47.2
-  origversion: 4.47.2-r3
-  status: outdated
-  summary: Fish completions for yq-go
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-zsh-completion
-  visiblename: yq-go-zsh-completion
-  version: 4.47.2
-  origversion: 4.47.2-r3
-  status: outdated
-  summary: Zsh completions for yq-go
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go
-  visiblename: yq-go
-  version: 4.49.2
-  origversion: 4.49.2-r6
-  status: outdated
-  summary: Portable command-line YAML processor written in Go
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-bash-completion
-  visiblename: yq-go-bash-completion
-  version: 4.49.2
-  origversion: 4.49.2-r6
-  status: outdated
-  summary: Bash completions for yq-go
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-fish-completion
-  visiblename: yq-go-fish-completion
-  version: 4.49.2
-  origversion: 4.49.2-r6
-  status: outdated
-  summary: Fish completions for yq-go
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-zsh-completion
-  visiblename: yq-go-zsh-completion
-  version: 4.49.2
-  origversion: 4.49.2-r6
-  status: outdated
-  summary: Zsh completions for yq-go
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go
-  visiblename: yq-go
+- repo: aur
+  srcname: go-yq-git
+  binname: go-yq-git
+  visiblename: go-yq-git
   version: 4.53.3
-  origversion: 4.53.3-r2
-  status: outdated
-  summary: Portable command-line YAML processor written in Go
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-bash-completion
-  visiblename: yq-go-bash-completion
-  version: 4.53.3
-  origversion: 4.53.3-r2
-  status: outdated
-  summary: Bash completions for yq-go
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-fish-completion
-  visiblename: yq-go-fish-completion
-  version: 4.53.3
-  origversion: 4.53.3-r2
-  status: outdated
-  summary: Fish completions for yq-go
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-zsh-completion
-  visiblename: yq-go-zsh-completion
-  version: 4.53.3
-  origversion: 4.53.3-r2
-  status: outdated
-  summary: Zsh completions for yq-go
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go
-  visiblename: yq-go
-  version: 4.54.1
-  origversion: 4.54.1-r1
-  status: outdated
-  summary: Portable command-line YAML processor written in Go
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: yq-go
-  binname: yq-go-bash-completion
-  visiblename: yq-go-bash-completion
-  version: 4.54.1
-  origversion: 4.54.1-r1
-  status: outdated
-  summary: Bash completions for yq-go
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: yq-go
-  visiblename: yq-go
-  version: 4.45.4
-  origversion: null
-  status: outdated
+  origversion: 4.53.3-1
+  status: rolling
   summary: Portable command-line YAML processor
   maintainers:
-    - lewo@abesis.fr
-    - prc.zhao@outlook.com
-    - sandro.jaeckel@gmail.com
+    - ilovemikael@aur
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: yq
+  binname: yq-zsh-completion
+  visiblename: yq-zsh-completion
+  version: 4.33.3
+  origversion: 4.33.3-r5
+  status: outdated
+  summary: Zsh completions for yq
+  maintainers:
+    - tmhoang@linux.ibm.com
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: yq
+  binname: yq
+  visiblename: yq
+  version: 4.35.2
+  origversion: 4.35.2-r4
+  status: outdated
+  summary: Portable command-line YAML processor written in Go
+  maintainers:
+    - tmhoang@linux.ibm.com
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: yq
+  binname: yq-bash-completion
+  visiblename: yq-bash-completion
+  version: 4.35.2
+  origversion: 4.35.2-r4
+  status: outdated
+  summary: Bash completions for yq
+  maintainers:
+    - tmhoang@linux.ibm.com
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: yq
+  binname: yq-fish-completion
+  visiblename: yq-fish-completion
+  version: 4.35.2
+  origversion: 4.35.2-r4
+  status: outdated
+  summary: Fish completions for yq
+  maintainers:
+    - tmhoang@linux.ibm.com
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: yq
+  binname: yq-zsh-completion
+  visiblename: yq-zsh-completion
+  version: 4.35.2
+  origversion: 4.35.2-r4
+  status: outdated
+  summary: Zsh completions for yq
+  maintainers:
+    - tmhoang@linux.ibm.com
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go
+  visiblename: yq-go
+  version: 4.44.1
+  origversion: 4.44.1-r2
+  status: outdated
+  summary: Portable command-line YAML processor written in Go
+  maintainers:
+    - tmhoang@linux.ibm.com
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-bash-completion
+  visiblename: yq-go-bash-completion
+  version: 4.44.1
+  origversion: 4.44.1-r2
+  status: outdated
+  summary: Bash completions for yq-go
+  maintainers:
+    - tmhoang@linux.ibm.com
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-fish-completion
+  visiblename: yq-go-fish-completion
+  version: 4.44.1
+  origversion: 4.44.1-r2
+  status: outdated
+  summary: Fish completions for yq-go
+  maintainers:
+    - tmhoang@linux.ibm.com
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-zsh-completion
+  visiblename: yq-go-zsh-completion
+  version: 4.44.1
+  origversion: 4.44.1-r2
+  status: outdated
+  summary: Zsh completions for yq-go
+  maintainers:
+    - tmhoang@linux.ibm.com
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go
+  visiblename: yq-go
+  version: 4.44.5
+  origversion: 4.44.5-r5
+  status: outdated
+  summary: Portable command-line YAML processor written in Go
+  maintainers:
+    - tmhoang@linux.ibm.com
+  licenses:
+    - MIT
+- repo: arch
+  subrepo: extra
+  srcname: go-yq
+  binname: go-yq
+  visiblename: go-yq
+  version: 4.54.1
+  origversion: 4.54.1-1
+  status: outdated
+  summary: Portable command-line YAML processor
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-bash-completion
+  visiblename: yq-go-bash-completion
+  version: 4.44.5
+  origversion: 4.44.5-r5
+  status: outdated
+  summary: Bash completions for yq-go
+  maintainers:
+    - tmhoang@linux.ibm.com
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-fish-completion
+  visiblename: yq-go-fish-completion
+  version: 4.44.5
+  origversion: 4.44.5-r5
+  status: outdated
+  summary: Fish completions for yq-go
+  maintainers:
+    - tmhoang@linux.ibm.com
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-zsh-completion
+  visiblename: yq-go-zsh-completion
+  version: 4.44.5
+  origversion: 4.44.5-r5
+  status: outdated
+  summary: Zsh completions for yq-go
+  maintainers:
+    - tmhoang@linux.ibm.com
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go
+  visiblename: yq-go
+  version: 4.47.2
+  origversion: 4.47.2-r3
+  status: outdated
+  summary: Portable command-line YAML processor written in Go
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: yq
+  binname: yq-fishcomp
+  visiblename: yq-fishcomp
+  version: 4.54.3
+  origversion: 4.54.3-r1
+  status: newest
+  summary: Command-line YAML processor (fish completions)
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-bash-completion
+  visiblename: yq-go-bash-completion
+  version: 4.47.2
+  origversion: 4.47.2-r3
+  status: outdated
+  summary: Bash completions for yq-go
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-fish-completion
+  visiblename: yq-go-fish-completion
+  version: 4.47.2
+  origversion: 4.47.2-r3
+  status: outdated
+  summary: Fish completions for yq-go
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-zsh-completion
+  visiblename: yq-go-zsh-completion
+  version: 4.47.2
+  origversion: 4.47.2-r3
+  status: outdated
+  summary: Zsh completions for yq-go
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go
+  visiblename: yq-go
+  version: 4.49.2
+  origversion: 4.49.2-r6
+  status: outdated
+  summary: Portable command-line YAML processor written in Go
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-bash-completion
+  visiblename: yq-go-bash-completion
+  version: 4.49.2
+  origversion: 4.49.2-r6
+  status: outdated
+  summary: Bash completions for yq-go
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-fish-completion
+  visiblename: yq-go-fish-completion
+  version: 4.49.2
+  origversion: 4.49.2-r6
+  status: outdated
+  summary: Fish completions for yq-go
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: go-yq
+  binname: go-yq
+  visiblename: go-yq
+  version: 4.54.1
+  origversion: 4.54.1-1
+  status: outdated
+  summary: Portable command-line YAML processor
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-zsh-completion
+  visiblename: yq-go-zsh-completion
+  version: 4.49.2
+  origversion: 4.49.2-r6
+  status: outdated
+  summary: Zsh completions for yq-go
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go
+  visiblename: yq-go
+  version: 4.53.3
+  origversion: 4.53.3-r2
+  status: outdated
+  summary: Portable command-line YAML processor written in Go
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-bash-completion
+  visiblename: yq-go-bash-completion
+  version: 4.53.3
+  origversion: 4.53.3-r2
+  status: outdated
+  summary: Bash completions for yq-go
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-fish-completion
+  visiblename: yq-go-fish-completion
+  version: 4.53.3
+  origversion: 4.53.3-r2
+  status: outdated
+  summary: Fish completions for yq-go
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-zsh-completion
+  visiblename: yq-go-zsh-completion
+  version: 4.53.3
+  origversion: 4.53.3-r2
+  status: outdated
+  summary: Zsh completions for yq-go
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go
+  visiblename: yq-go
+  version: 4.54.1
+  origversion: 4.54.1-r1
+  status: outdated
+  summary: Portable command-line YAML processor written in Go
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: yq-go
+  binname: yq-go-bash-completion
+  visiblename: yq-go-bash-completion
+  version: 4.54.1
+  origversion: 4.54.1-r1
+  status: outdated
+  summary: Bash completions for yq-go
+  maintainers:
+    - kdaudt@alpinelinux.org
   licenses:
     - MIT
 - repo: alpine_edge
@@ -563,41 +593,6 @@
     - MIT
   categories:
     - Development/Tools
-- repo: aosc
-  srcname: app-devel/yq
-  binname: yq
-  visiblename: yq
-  version: 4.53.3
-  origversion: 4.53.3-1
-  status: outdated
-  summary: Command-line YAML, JSON, XML, CSV, TOML and properties processor
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - devel
-- repo: arch
-  subrepo: extra
-  srcname: go-yq
-  binname: go-yq
-  visiblename: go-yq
-  version: 4.54.1
-  origversion: 4.54.1-1
-  status: outdated
-  summary: Portable command-line YAML processor
-  licenses:
-    - MIT
-- repo: aur
-  srcname: go-yq-git
-  binname: go-yq-git
-  visiblename: go-yq-git
-  version: 4.53.3
-  origversion: 4.53.3-1
-  status: rolling
-  summary: Portable command-line YAML processor
-  maintainers:
-    - ilovemikael@aur
-  licenses:
-    - MIT
 - repo: artix
   subrepo: world
   srcname: go-yq
@@ -642,17 +637,15 @@
   summary: Command-line YAML processor (documentation)
   licenses:
     - MIT
-- repo: chimera
-  subrepo: user
-  srcname: yq
-  binname: yq-fishcomp
-  visiblename: yq-fishcomp
+- repo: wakemeops
+  subrepo: terminal
+  binname: yq
+  visiblename: yq
   version: 4.54.3
-  origversion: 4.54.3-r1
+  origversion: 4.54.3-2~ops2deb
   status: newest
-  summary: Command-line YAML processor (fish completions)
-  licenses:
-    - MIT
+  maintainers:
+    - ops2deb@upciti.com
 - repo: chimera
   subrepo: user
   srcname: yq
@@ -662,19 +655,6 @@
   origversion: 4.54.3-r1
   status: newest
   summary: Command-line YAML processor (manual pages)
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: yq-go
-  visiblename: yq-go
-  version: 4.50.1
-  origversion: null
-  status: outdated
-  summary: Portable command-line YAML processor
-  maintainers:
-    - lewo@abesis.fr
-    - prc.zhao@outlook.com
-    - sandro.jaeckel@gmail.com
   licenses:
     - MIT
 - repo: chimera
@@ -725,6 +705,20 @@
     - utils
 - repo: debian_unstable
   subrepo: sid/main
+  srcname: yq-go
+  binnames:
+    - yq-go
+  visiblename: yq-go
+  version: 4.54.1
+  origversion: 4.54.1+ds-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - chrism@debian.org
+  categories:
+    - utils
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: yq-go
   binnames:
     - yq-go
@@ -1268,17 +1262,6 @@
   summary: Portable command-line YAML processor
   licenses:
     - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: go-yq
-  binname: go-yq
-  visiblename: go-yq
-  version: 4.54.1
-  origversion: 4.54.1-1
-  status: outdated
-  summary: Portable command-line YAML processor
-  licenses:
-    - MIT
 - repo: msys2_clang64
   srcname: mingw-w64-yq
   binname: mingw-w64-clang-x86_64-yq
@@ -1330,6 +1313,32 @@
   summary: Portable command-line YAML processor
   maintainers:
     - lewo@abesis.fr
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: yq-go
+  visiblename: yq-go
+  version: 4.45.4
+  origversion: null
+  status: outdated
+  summary: Portable command-line YAML processor
+  maintainers:
+    - lewo@abesis.fr
+    - prc.zhao@outlook.com
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: yq-go
+  visiblename: yq-go
+  version: 4.50.1
+  origversion: null
+  status: outdated
+  summary: Portable command-line YAML processor
+  maintainers:
+    - lewo@abesis.fr
+    - prc.zhao@outlook.com
     - sandro.jaeckel@gmail.com
   licenses:
     - MIT
@@ -1508,7 +1517,7 @@
     - teaguesterling@spack
   licenses:
     - MIT
-- repo: stalix_dev
+- repo: stalix
   srcname: bin/yq
   binname: bin/yq
   visiblename: bin/yq
@@ -1587,17 +1596,26 @@
   subrepo: terminal
   binname: yq
   visiblename: yq
-  version: 4.54.3
-  origversion: 4.54.3-2~ops2deb
-  status: newest
+  version: 4.54.2
+  origversion: 4.54.2-2~ops2deb
+  status: legacy
   maintainers:
     - ops2deb@upciti.com
 - repo: wakemeops
   subrepo: terminal
   binname: yq
   visiblename: yq
-  version: 4.54.2
-  origversion: 4.54.2-2~ops2deb
+  version: 4.54.1
+  origversion: 4.54.1-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: yq
+  visiblename: yq
+  version: 4.53.6
+  origversion: 4.53.6-2~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -1796,24 +1814,6 @@
   visiblename: yq
   version: 4.44.1
   origversion: 4.44.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: yq
-  visiblename: yq
-  version: 4.43.1
-  origversion: 4.43.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: yq
-  visiblename: yq
-  version: 4.42.1
-  origversion: 4.42.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
