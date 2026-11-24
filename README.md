@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **Code-Review** (3/10) — Found 7/18 approved changesets -- score normalized to 3
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,345 · **Forks**: 1,502 · **Open issues**: 1,639 · **Contributors**: 168
+- **Stars**: 16,345 · **Forks**: 1,480 · **Open issues**: 1,639 · **Contributors**: 168
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 2 | 11 | 33 | 4 | 11 | 0 |
-| last60d | 2026-09-24 | 3 | 36 | 53 | 4 | 20 | 0 |
-| 90d | 2026-08-25 | 3 | 57 | 60 | 7 | 23 | 0 |
-| last180d | 2026-05-27 | 6 | 112 | 81 | 19 | 30 | 0 |
-| 360d | 2025-11-28 | 12 | 199 | 91 | 61 | 56 | 0 |
-| last720d | 2024-12-03 | 24 | 271 | 92 | 141 | 114 | 531 |
+| 30d | 2026-10-25 | 2 | 11 | 33 | 4 | 11 | 18 |
+| last60d | 2026-09-25 | 3 | 36 | 53 | 4 | 20 | 43 |
+| 90d | 2026-08-26 | 3 | 57 | 60 | 7 | 23 | 67 |
+| last180d | 2026-05-28 | 6 | 108 | 81 | 19 | 30 | 150 |
+| 360d | 2025-11-29 | 12 | 199 | 91 | 61 | 56 | 319 |
+| last720d | 2024-12-04 | 24 | 271 | 92 | 141 | 114 | 531 |
 
 ## Release assets
 
@@ -154,4 +154,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T08:14:05Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T10:48:16Z._

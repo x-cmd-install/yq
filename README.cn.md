@@ -32,7 +32,7 @@ x install yq
 
 - **Code-Review** (3/10) — Found 7/18 approved changesets -- score normalized to 3
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## 源代码
 
@@ -48,7 +48,7 @@ x install yq
 
 ## 流行度
 
-- **Star**: 16,345 · **Fork**: 1,502 · **开放 issue**: 1,639 · **贡献者**: 168
+- **Star**: 16,345 · **Fork**: 1,480 · **开放 issue**: 1,639 · **贡献者**: 168
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install yq
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 2 | 11 | 33 | 4 | 11 | 0 |
-| last60d | 2026-09-24 | 3 | 36 | 53 | 4 | 20 | 0 |
-| 90d | 2026-08-25 | 3 | 57 | 60 | 7 | 23 | 0 |
-| last180d | 2026-05-27 | 6 | 112 | 81 | 19 | 30 | 0 |
-| 360d | 2025-11-28 | 12 | 199 | 91 | 61 | 56 | 0 |
-| last720d | 2024-12-03 | 24 | 271 | 92 | 141 | 114 | 531 |
+| 30d | 2026-10-25 | 2 | 11 | 33 | 4 | 11 | 18 |
+| last60d | 2026-09-25 | 3 | 36 | 53 | 4 | 20 | 43 |
+| 90d | 2026-08-26 | 3 | 57 | 60 | 7 | 23 | 67 |
+| last180d | 2026-05-28 | 6 | 108 | 81 | 19 | 30 | 150 |
+| 360d | 2025-11-29 | 12 | 199 | 91 | 61 | 56 | 319 |
+| last720d | 2024-12-04 | 24 | 271 | 92 | 141 | 114 | 531 |
 
 ## Release 资产
 
@@ -154,4 +154,4 @@ yq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T08:14:06Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T10:48:17Z._
