@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,345 · **Forks**: 1,480 · **Open issues**: 1,639 · **Contributors**: 168
+- **Stars**: 16,352 · **Forks**: 1,451 · **Open issues**: 1,639 · **Contributors**: 168
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 2 | 11 | 33 | 4 | 11 | 18 |
-| last60d | 2026-09-25 | 3 | 36 | 53 | 4 | 20 | 43 |
-| 90d | 2026-08-26 | 3 | 57 | 60 | 7 | 23 | 67 |
-| last180d | 2026-05-28 | 6 | 108 | 81 | 19 | 30 | 150 |
-| 360d | 2025-11-29 | 12 | 199 | 91 | 61 | 56 | 319 |
-| last720d | 2024-12-04 | 24 | 271 | 92 | 141 | 114 | 531 |
+| 30d | 2026-10-26 | 2 | 11 | 32 | 4 | 11 | 18 |
+| last60d | 2026-09-26 | 3 | 35 | 52 | 4 | 19 | 43 |
+| 90d | 2026-08-27 | 3 | 54 | 60 | 7 | 23 | 67 |
+| last180d | 2026-05-29 | 6 | 108 | 81 | 19 | 30 | 150 |
+| 360d | 2025-11-30 | 12 | 199 | 91 | 61 | 56 | 319 |
+| last720d | 2024-12-05 | 24 | 268 | 92 | 140 | 114 | 531 |
 
 ## Release assets
 
@@ -129,22 +129,6 @@ Lowest-scoring checks:
 | [yq_windows_arm64.exe](https://github.com/mikefarah/yq/releases/download/v4.54.3/yq_windows_arm64.exe) | 13.9 MiB | `native/win/arm64` |
 | [yq_windows_arm64.zip](https://github.com/mikefarah/yq/releases/download/v4.54.3/yq_windows_arm64.zip) | 5.4 MiB | `native/win/arm64` |
 
-## Distribution status
-
-Reported by **179** distros on [repology.org](https://repology.org/project/yq). **21** are ✅ on the latest upstream release, **82** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `4.54.1` | ⚠️ outdated |
-| Debian 14 | `4.54.1` | ⚠️ outdated |
-| Arch | `4.54.1` | ⚠️ outdated |
-| Homebrew | `4.54.3` | ✅ latest |
-| Fedora rawhide | `4.53.3` | ⚠️ outdated |
-| Nix unstable | `4.54.1` | ⚠️ outdated |
-| Void | `4.54.1` | ⚠️ outdated |
-| Alpine edge | `4.54.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `4.53.3` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `yq` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -154,4 +138,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:48:16Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:04:56Z._
