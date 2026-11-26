@@ -26,11 +26,11 @@ x install yq
 
 ## OpenSSF Scorecard 评分
 
-总评分: **7.5 / 10**
+总评分: **7.4 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (3/10) — Found 7/18 approved changesets -- score normalized to 3
+- **Code-Review** (2/10) — Found 3/12 approved changesets -- score normalized to 2
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
@@ -43,27 +43,27 @@ x install yq
 ## 发布
 
 - **最新版本**: `v4.54.3` (2026-11-09)
-- **最近提交**: 2026-11-09
+- **最近提交**: 2026-11-25
 - **Release 含资产**: 59 个
 
 ## 流行度
 
-- **Star**: 16,352 · **Fork**: 1,451 · **开放 issue**: 1,639 · **贡献者**: 168
+- **Star**: 16,361 · **Fork**: 1,455 · **开放 issue**: 1,639 · **贡献者**: 168
 
 ## 累计统计
 
-- **发布数**: 172 · **已合并 PR**: 592 · **开放 PR**: 92 · **已关闭 issue**: 1383 · **开放 issue**: 256 · **提交数**: 2376
+- **发布数**: 172 · **已合并 PR**: 600 · **开放 PR**: 92 · **已关闭 issue**: 1384 · **开放 issue**: 255 · **提交数**: 2384
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 2 | 11 | 32 | 4 | 11 | 18 |
-| last60d | 2026-09-26 | 3 | 35 | 52 | 4 | 19 | 43 |
-| 90d | 2026-08-27 | 3 | 54 | 60 | 7 | 23 | 67 |
-| last180d | 2026-05-29 | 6 | 108 | 81 | 19 | 30 | 150 |
-| 360d | 2025-11-30 | 12 | 199 | 91 | 61 | 56 | 319 |
-| last720d | 2024-12-05 | 24 | 268 | 92 | 140 | 114 | 531 |
+| 30d | 2026-10-27 | 2 | 19 | 32 | 4 | 11 | 26 |
+| last60d | 2026-09-27 | 3 | 42 | 52 | 4 | 19 | 51 |
+| 90d | 2026-08-28 | 3 | 62 | 60 | 7 | 22 | 75 |
+| last180d | 2026-05-30 | 6 | 116 | 81 | 19 | 30 | 158 |
+| 360d | 2025-12-01 | 12 | 207 | 91 | 61 | 56 | 327 |
+| last720d | 2024-12-06 | 24 | 276 | 92 | 140 | 114 | 539 |
 
 ## Release 资产
 
@@ -138,4 +138,4 @@ yq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261125.yml` · 2026-11-25T10:04:56Z._
+_数据快照: `data/card/261126.yml` · 2026-11-26T09:49:23Z._

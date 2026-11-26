@@ -26,11 +26,11 @@ Total: **43,999** lines of code across **351** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **7.5 / 10**
+Overall score: **7.4 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (3/10) — Found 7/18 approved changesets -- score normalized to 3
+- **Code-Review** (2/10) — Found 3/12 approved changesets -- score normalized to 2
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.54.3` (2026-11-09)
-- **Last commit**: 2026-11-09
+- **Last commit**: 2026-11-25
 - **Assets in release**: 59
 
 ## Popularity
 
-- **Stars**: 16,352 · **Forks**: 1,451 · **Open issues**: 1,639 · **Contributors**: 168
+- **Stars**: 16,361 · **Forks**: 1,455 · **Open issues**: 1,639 · **Contributors**: 168
 
 ## Totals (cumulative)
 
-- **Releases**: 172 · **Merged PRs**: 592 · **Open PRs**: 92 · **Closed issues**: 1383 · **Open issues**: 256 · **Commits**: 2376
+- **Releases**: 172 · **Merged PRs**: 600 · **Open PRs**: 92 · **Closed issues**: 1384 · **Open issues**: 255 · **Commits**: 2384
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 2 | 11 | 32 | 4 | 11 | 18 |
-| last60d | 2026-09-26 | 3 | 35 | 52 | 4 | 19 | 43 |
-| 90d | 2026-08-27 | 3 | 54 | 60 | 7 | 23 | 67 |
-| last180d | 2026-05-29 | 6 | 108 | 81 | 19 | 30 | 150 |
-| 360d | 2025-11-30 | 12 | 199 | 91 | 61 | 56 | 319 |
-| last720d | 2024-12-05 | 24 | 268 | 92 | 140 | 114 | 531 |
+| 30d | 2026-10-27 | 2 | 19 | 32 | 4 | 11 | 26 |
+| last60d | 2026-09-27 | 3 | 42 | 52 | 4 | 19 | 51 |
+| 90d | 2026-08-28 | 3 | 62 | 60 | 7 | 22 | 75 |
+| last180d | 2026-05-30 | 6 | 116 | 81 | 19 | 30 | 158 |
+| 360d | 2025-12-01 | 12 | 207 | 91 | 61 | 56 | 327 |
+| last720d | 2024-12-06 | 24 | 276 | 92 | 140 | 114 | 539 |
 
 ## Release assets
 
@@ -138,4 +138,4 @@ Install metadata for yq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T10:04:56Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T09:49:22Z._
