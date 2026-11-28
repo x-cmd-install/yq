@@ -48,22 +48,22 @@ x install yq
 
 ## 流行度
 
-- **Star**: 16,370 · **Fork**: 1,481 · **开放 issue**: 1,640 · **贡献者**: 168
+- **Star**: 16,374 · **Fork**: 1,495 · **开放 issue**: 1,640 · **贡献者**: 168
 
 ## 累计统计
 
-- **发布数**: 172 · **已合并 PR**: 600 · **开放 PR**: 93 · **已关闭 issue**: 1384 · **开放 issue**: 256 · **提交数**: 2384
+- **发布数**: 172 · **已合并 PR**: 600 · **开放 PR**: 96 · **已关闭 issue**: 1384 · **开放 issue**: 256 · **提交数**: 2384
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 2 | 18 | 33 | 4 | 12 | 26 |
-| last60d | 2026-09-28 | 3 | 42 | 53 | 4 | 19 | 51 |
-| 90d | 2026-08-29 | 3 | 62 | 60 | 7 | 23 | 75 |
-| last180d | 2026-05-31 | 6 | 116 | 82 | 19 | 31 | 158 |
-| 360d | 2025-12-02 | 12 | 207 | 92 | 61 | 57 | 327 |
-| last720d | 2024-12-07 | 24 | 276 | 93 | 140 | 115 | 539 |
+| 30d | 2026-10-29 | 2 | 16 | 35 | 4 | 12 | 26 |
+| last60d | 2026-09-29 | 3 | 42 | 55 | 4 | 19 | 51 |
+| 90d | 2026-08-30 | 3 | 62 | 63 | 7 | 23 | 75 |
+| last180d | 2026-06-01 | 6 | 115 | 85 | 19 | 31 | 158 |
+| 360d | 2025-12-03 | 12 | 207 | 95 | 60 | 57 | 327 |
+| last720d | 2024-12-08 | 23 | 276 | 96 | 140 | 114 | 529 |
 
 ## Release 资产
 
@@ -129,22 +129,6 @@ x install yq
 | [yq_windows_arm64.exe](https://github.com/mikefarah/yq/releases/download/v4.54.3/yq_windows_arm64.exe) | 13.9 MiB | `native/win/arm64` |
 | [yq_windows_arm64.zip](https://github.com/mikefarah/yq/releases/download/v4.54.3/yq_windows_arm64.zip) | 5.4 MiB | `native/win/arm64` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/yq) 上共有 **179** 个发行版报告此项目。**21** 个 ✅ 已是最新上游版本，**82** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `4.54.1` | ⚠️ outdated |
-| Debian 14 | `4.54.1` | ⚠️ outdated |
-| Arch | `4.54.1` | ⚠️ outdated |
-| Homebrew | `4.54.3` | ✅ latest |
-| Fedora rawhide | `4.53.3` | ⚠️ outdated |
-| Nix unstable | `4.54.1` | ⚠️ outdated |
-| Void | `4.54.1` | ⚠️ outdated |
-| Alpine edge | `4.54.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `4.53.3` | ⚠️ outdated |
-
 ## 改进这些数据
 
 yq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `yq` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -154,4 +138,4 @@ yq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261127.yml` · 2026-11-27T09:39:16Z._
+_数据快照: `data/card/261128.yml` · 2026-11-28T08:38:34Z._
